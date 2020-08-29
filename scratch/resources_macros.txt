@@ -1,0 +1,6 @@
+`define uvm_resource_read(SUCCESS, RSRC, TYPE, VAL, OBJ=null)
+`define uvm_resource_builtin_int_read(SUCCESS, RSRC, VAL, OBJ=null)
+`define uvm_resource_int_read(SUCCESS, RSRC, TYPE, VAL, OBJ=null)
+`define uvm_resource_enum_read(SUCCESS, RSRC, TYPE, VAL, OBJ=null)
+`define uvm_resource_real_read(SUCCESS, RSRC, VAL, OBJ=null)
+

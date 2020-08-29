@@ -1,0 +1,54 @@
+-template_context 05_macros.07_phase.110
+-template_name m_uvm_task_phase([PHASE],[COMP],[PREFIX])
+-template_start
+`m_uvm_task_phase([PHASE],[COMP],[PREFIX])
+-template_end
+
+-template_context 05_macros.07_phase.111
+-template_name m_uvm_topdown_phase([PHASE],[COMP],[PREFIX])
+-template_start
+`m_uvm_topdown_phase([PHASE],[COMP],[PREFIX])
+-template_end
+
+-template_context 05_macros.07_phase.112
+-template_name m_uvm_bottomup_phase([PHASE],[COMP],[PREFIX])
+-template_start
+`m_uvm_bottomup_phase([PHASE],[COMP],[PREFIX])
+-template_end
+
+-template_context 05_macros.07_phase.113
+-template_name uvm_builtin_task_phase([PHASE])
+-template_start
+`uvm_builtin_task_phase([PHASE])
+-template_end
+
+-template_context 05_macros.07_phase.114
+-template_name uvm_builtin_topdown_phase([PHASE])
+-template_start
+`uvm_builtin_topdown_phase([PHASE])
+-template_end
+
+-template_context 05_macros.07_phase.115
+-template_name uvm_builtin_bottomup_phase([PHASE])
+-template_start
+`uvm_builtin_bottomup_phase([PHASE])
+-template_end
+
+-template_context 05_macros.07_phase.116
+-template_name uvm_user_task_phase([PHASE],[COMP],[PREFIX])
+-template_start
+`uvm_user_task_phase([PHASE],[COMP],[PREFIX])
+-template_end
+
+-template_context 05_macros.07_phase.117
+-template_name uvm_user_topdown_phase([PHASE],[COMP],[PREFIX])
+-template_start
+`uvm_user_topdown_phase([PHASE],[COMP],[PREFIX])
+-template_end
+
+-template_context 05_macros.07_phase.118
+-template_name uvm_user_bottomup_phase([PHASE],[COMP],[PREFIX])
+-template_start
+`uvm_user_bottomup_phase([PHASE],[COMP],[PREFIX])
+-template_end
+

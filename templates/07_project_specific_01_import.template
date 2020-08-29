@@ -1,0 +1,9 @@
+
+
+
+-template_context 07_project_specific.02_imports.110
+
+-template_name import TestbenchConfiguration
+-template_start
+import TestbenchConfiguration
+-template_end

@@ -1,0 +1,66 @@
+
+-template_context 00_python.03_list_functions.110
+-template_name [[l]].append([])
+-template_start
+[[l]].append([])
+-template_end
+
+-template_context 00_python.03_list_functions.111
+-template_name [[l]].index([])
+-template_start
+[[l]].index([])
+-template_end
+
+-template_context 00_python.03_list_functions.112
+-template_name [[l]].extend([])
+-template_start
+[[l]].extend([])
+-template_end
+
+-template_context 00_python.03_list_functions.113
+-template_name [[l]].remove([])
+-template_start
+[[l]].remove([])
+-template_end
+
+-template_context 00_python.03_list_functions.114
+-template_name [[l]].count([])
+-template_start
+[[l]].count([])
+-template_end
+
+-template_context 00_python.03_list_functions.115
+-template_name [[l]].pop([])
+-template_start
+[[l]].pop([])
+-template_end
+
+-template_context 00_python.03_list_functions.116
+-template_name [[l]].reverse([])
+-template_start
+[[l]].reverse([])
+-template_end
+
+-template_context 00_python.03_list_functions.117
+-template_name [[l]].sort([])
+-template_start
+[[l]].sort([])
+-template_end
+
+-template_context 00_python.03_list_functions.118
+-template_name [[l]].copy([])
+-template_start
+[[l]].copy([])
+-template_end
+
+-template_context 00_python.03_list_functions.119
+-template_name [[l]].clear([])
+-template_start
+[[l]].clear([])
+-template_end
+
+-template_context 00_python.03_list_functions.120
+-template_name [[l]].insert([index],[element])
+-template_start
+[[l]].insert([index],[element])
+-template_end

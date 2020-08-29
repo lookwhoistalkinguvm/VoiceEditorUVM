@@ -1,0 +1,336 @@
+-template_context 05_macros.00_object.110
+-template_name uvm_field_utils_begin([T])
+-template_start
+`uvm_field_utils_begin([T])
+-template_end
+
+-template_context 05_macros.00_object.111
+-template_name uvm_field_utils_end
+-template_start
+`uvm_field_utils_end
+-template_end
+
+-template_context 05_macros.00_object.112
+-template_name uvm_object_utils([T])
+-template_start
+`uvm_object_utils([T])
+-template_end
+
+-template_context 05_macros.00_object.113
+-template_name uvm_object_param_utils([T])
+-template_start
+`uvm_object_param_utils([T])
+-template_end
+
+-template_context 05_macros.00_object.114
+-template_name uvm_object_utils_begin([T])
+-template_start
+`uvm_object_utils_begin([T])
+-template_end
+
+-template_context 05_macros.00_object.115
+-template_name uvm_object_param_utils_begin([T])
+-template_start
+`uvm_object_param_utils_begin([T])
+-template_end
+
+-template_context 05_macros.00_object.116
+-template_name uvm_object_abstract_utils([T])
+-template_start
+`uvm_object_abstract_utils([T])
+-template_end
+
+-template_context 05_macros.00_object.117
+-template_name uvm_object_abstract_param_utils([T])
+-template_start
+`uvm_object_abstract_param_utils([T])
+-template_end
+
+-template_context 05_macros.00_object.118
+-template_name uvm_object_abstract_utils_begin([T])
+-template_start
+`uvm_object_abstract_utils_begin([T])
+-template_end
+
+-template_context 05_macros.00_object.119
+-template_name uvm_object_abstract_param_utils_begin([T])
+-template_start
+`uvm_object_abstract_param_utils_begin([T])
+-template_end
+
+-template_context 05_macros.00_object.120
+-template_name uvm_object_abstract_utils_end
+-template_start
+`uvm_object_abstract_utils_end
+-template_end
+
+-template_context 05_macros.00_object.121
+-template_name uvm_component_utils([T])
+-template_start
+`uvm_component_utils([T])
+-template_end
+
+-template_context 05_macros.00_object.122
+-template_name uvm_component_param_utils([T])
+-template_start
+`uvm_component_param_utils([T])
+-template_end
+
+-template_context 05_macros.00_object.123
+-template_name uvm_component_utils_begin([T])
+-template_start
+`uvm_component_utils_begin([T])
+-template_end
+
+-template_context 05_macros.00_object.124
+-template_name uvm_component_param_utils_begin([T])
+-template_start
+`uvm_component_param_utils_begin([T])
+-template_end
+
+-template_context 05_macros.00_object.125
+-template_name uvm_component_abstract_utils([T])
+-template_start
+`uvm_component_abstract_utils([T])
+-template_end
+
+-template_context 05_macros.00_object.126
+-template_name uvm_component_abstract_param_utils([T])
+-template_start
+`uvm_component_abstract_param_utils([T])
+-template_end
+
+-template_context 05_macros.00_object.127
+-template_name uvm_component_abstract_utils_begin([T])
+-template_start
+`uvm_component_abstract_utils_begin([T])
+-template_end
+
+-template_context 05_macros.00_object.128
+-template_name uvm_component_abstract_param_utils_begin([T])
+-template_start
+`uvm_component_abstract_param_utils_begin([T])
+-template_end
+
+-template_context 05_macros.00_object.129
+-template_name uvm_component_utils_end
+-template_start
+`uvm_component_utils_end
+-template_end
+
+-template_context 05_macros.00_object.130
+-template_name uvm_field_int([ARG],[FLAG])
+-template_start
+`uvm_field_int([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.131
+-template_name uvm_field_real([ARG],[FLAG])
+-template_start
+`uvm_field_real([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.132
+-template_name uvm_field_enum([T],[ARG],[FLAG])
+-template_start
+`uvm_field_enum([T],[ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.133
+-template_name uvm_field_object([ARG],[FLAG])
+-template_start
+`uvm_field_object([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.134
+-template_name uvm_field_event([ARG],[FLAG])
+-template_start
+`uvm_field_event([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.135
+-template_name uvm_field_string([ARG],[FLAG])
+-template_start
+`uvm_field_string([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.136
+-template_name uvm_field_array_enum([ARG],[FLAG])
+-template_start
+`uvm_field_array_enum([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.137
+-template_name uvm_field_array_int([ARG],[FLAG])
+-template_start
+`uvm_field_array_int([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.138
+-template_name uvm_field_sarray_int([ARG],[FLAG])
+-template_start
+`uvm_field_sarray_int([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.139
+-template_name uvm_field_sarray_enum([ARG],[FLAG])
+-template_start
+`uvm_field_sarray_enum([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.140
+-template_name uvm_field_array_object([ARG],[FLAG])
+-template_start
+`uvm_field_array_object([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.141
+-template_name uvm_field_sarray_object([ARG],[FLAG])
+-template_start
+`uvm_field_sarray_object([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.142
+-template_name uvm_field_array_string([ARG],[FLAG])
+-template_start
+`uvm_field_array_string([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.143
+-template_name uvm_field_sarray_string([ARG],[FLAG])
+-template_start
+`uvm_field_sarray_string([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.144
+-template_name uvm_field_queue_enum([ARG],[FLAG])
+-template_start
+`uvm_field_queue_enum([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.145
+-template_name uvm_field_queue_int([ARG],[FLAG])
+-template_start
+`uvm_field_queue_int([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.146
+-template_name uvm_field_queue_object([ARG],[FLAG])
+-template_start
+`uvm_field_queue_object([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.147
+-template_name uvm_field_queue_string([ARG],[FLAG])
+-template_start
+`uvm_field_queue_string([ARG],[FLAG])
+-template_end
+
+-template_context 05_macros.00_object.148
+-template_name uvm_field_aa_int_string([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_string([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.149
+-template_name uvm_field_aa_string_string([ARG], [FLAG])
+-template_start
+`uvm_field_aa_string_string([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.150
+-template_name uvm_field_aa_object_string([ARG], [FLAG])
+-template_start
+`uvm_field_aa_object_string([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.151
+-template_name uvm_field_aa_int_int([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_int([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.152
+-template_name uvm_field_aa_int_int([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_int([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.153
+-template_name uvm_field_aa_int_int_unsigned([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_int_unsigned([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.154
+-template_name uvm_field_aa_int_integer([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_integer([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.155
+-template_name uvm_field_aa_int_integer_unsigned([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_integer_unsigned([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.156
+-template_name uvm_field_aa_int_byte([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_byte([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.157
+-template_name uvm_field_aa_int_byte_unsigned([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_byte_unsigned([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.158
+-template_name uvm_field_aa_int_shortint([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_shortint([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.159
+-template_name uvm_field_aa_int_shortint_unsigned([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_shortint_unsigned([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.160
+-template_name uvm_field_aa_int_longint([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_longint([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.161
+-template_name uvm_field_aa_int_longint_unsigned([ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_longint_unsigned([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.162
+-template_name uvm_field_aa_int_key(KEY, [ARG], [FLAG])
+-template_start
+`uvm_field_aa_int_key(KEY, [ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.163
+-template_name uvm_field_aa_string_int([ARG], [FLAG])
+-template_start
+`uvm_field_aa_string_int([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.164
+-template_name uvm_field_aa_object_int([ARG], [FLAG])
+-template_start
+`uvm_field_aa_object_int([ARG], [FLAG])
+-template_end
+
+-template_context 05_macros.00_object.165
+-template_name
+-template_start
+`
+-template_end
+

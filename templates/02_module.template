@@ -1,0 +1,118 @@
+-template_context 02_module.109
+
+-template_name variable substitution
+-template_start
+\[[]\]
+-template_end
+
+
+
+-template_context 02_module.110
+
+-template_name top
+-template_start
+module top;
+ import uvm_pkg::*;
+
+ ////Interface Instantiations
+ //Example: iicIf iicIf1();
+
+ //Wire Declarations
+ //Example: wire scl, sda;
+
+ initial begin
+  ////Put config's into database
+  //Example: uvm_config_db#(virtual iicIf)::set(null,"*","iicIf1", iicIf1);
+ end
+
+ ////Test bench component instantiations
+ //Example: pullup(scl);
+
+ ////Device Under Test instantiation
+ //Example: i2c_master_top dut(
+ //Example:  .wb_clk_i(wbIf.clk),
+ //Example:);
+
+
+ ////Initial Block
+ initial begin
+  //Example: wbIf.rst   <= 1'b1;
+ end
+
+ initial run_test();
+
+endmodule
+-template_end
+
+
+-template_context 02_module.111
+
+-template_name global definitions package
+-template_start
+package [global_defs_pkg];
+ //Example: typedef int unsigned ui;
+
+////Defines
+//Example: `define PRERlo_REG_ADDR    3'h0
+
+////Parameter definitions
+//Example: parameter ui MAXFRAMELENGTH = 100;
+parameter ui MAXRETRIES     = 100;
+parameter ui P_CLOCKSTRETCHFACTOR = 4;
+parameter ui P_TESTRUNOUT = 10000; //10 us.
+parameter ui P_TESTRUNIN  =  5000;  //500 ns.
+parameter ui P_MAXINTERFRAMEDELAY_XT =10; //SCL clock periods.
+parameter ui P_MINTERFRAMEDELAY_XT =10; //SCL clock periods.
+parameter ui P_MAXINTERFRAMEDELAY_DUT=10;
+parameter ui P_MININTERFRAMEDELAY_DUT=10;
+parameter ui P_DEFAULTWBFREQUENCY= 50000; //10 MHz.
+parameter ui P_ZEROARBMIX = 1;
+parameter ui P_ONEARBMIX = 100;
+parameter ui P_BITTIMEOUT = 200_00000; //20ms
+-template_end
+
+
+
+-template_context 02_module.112
+
+-template_name import [uvm_pkg]::[*];
+-template_start
+import [uvm_pkg]::[*];
+-template_end
+
+
+-template_context 02_module.113
+
+-template_name initial begin block end
+-template_start
+initial begin
+
+end
+-template_end
+
+
+-template_context 02_module.114
+
+-template_name UVM config DB set virtual interface
+-template_start
+uvm_config_db#(virtual [i/f name])::set([null],"[*]","[i/f instance label]", [i/f instance]);
+-template_end
+
+
+
+-template_context 02_module.115
+
+-template_name module port instantiation
+-template_start
+.[module port]([signal]),
+-template_end
+
+
+
+-template_context 02_module.116
+
+-template_name module/interface instantiation
+-template_start
+[[module/interface]] [instance name]([signal list]);
+-template_end
+

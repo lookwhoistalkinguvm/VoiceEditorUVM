@@ -1,0 +1,192 @@
+-template_context 05_macros.05_messages.110
+-template_name uvm_info([ID], [MSG], [VERBOSITY])
+-template_start
+`uvm_info([ID], [MSG], [VERBOSITY])
+-template_end
+
+-template_context 05_macros.05_messages.111
+-template_name uvm_warning([ID], [MSG])
+-template_start
+`uvm_warning([ID], [MSG])
+-template_end
+
+-template_context 05_macros.05_messages.112
+-template_name uvm_error([ID], [MSG])
+-template_start
+`uvm_error([ID], [MSG])
+-template_end
+
+-template_context 05_macros.05_messages.113
+-template_name uvm_fatal([ID], [MSG])
+-template_start
+`uvm_fatal([ID], [MSG])
+-template_end
+
+-template_context 05_macros.05_messages.114
+-template_name uvm_info_context([ID], [MSG], [VERBOSITY], [RO])
+-template_start
+`uvm_info_context([ID], [MSG], [VERBOSITY], [RO])
+-template_end
+
+-template_context 05_macros.05_messages.115
+-template_name uvm_warning_context([ID], [MSG], [RO])
+-template_start
+`uvm_warning_context([ID], [MSG], [RO])
+-template_end
+
+-template_context 05_macros.05_messages.116
+-template_name uvm_error_context([ID], [MSG], [RO])
+-template_start
+`uvm_error_context([ID], [MSG], [RO])
+-template_end
+
+-template_context 05_macros.05_messages.117
+-template_name uvm_fatal_context([ID], [MSG], [RO])
+-template_start
+`uvm_fatal_context([ID], [MSG], [RO])
+-template_end
+
+-template_context 05_macros.05_messages.118
+-template_name uvm_message_begin([SEVERITY], [ID], [MSG], [VERBOSITY], [FILE], [LINE], [RM])
+-template_start
+`uvm_message_begin([SEVERITY], [ID], [MSG], [VERBOSITY], [FILE], [LINE], [RM])
+-template_end
+
+-template_context 05_macros.05_messages.119
+-template_name uvm_message_end
+-template_start
+`uvm_message_end
+-template_end
+
+-template_context 05_macros.05_messages.120
+-template_name uvm_message_context_begin([SEVERITY], [ID], [MSG], [VERBOSITY], [FILE], [LINE], [RO], [RM])
+-template_start
+`uvm_message_context_begin([SEVERITY], [ID], [MSG], [VERBOSITY], [FILE], [LINE], [RO], [RM])
+-template_end
+
+-template_context 05_macros.05_messages.121
+-template_name uvm_message_context_end
+-template_start
+`uvm_message_context_end
+-template_end
+
+-template_context 05_macros.05_messages.122
+-template_name uvm_info_begin([ID], [MSG], [VERBOSITY], [RM] = __uvm_msg)
+-template_start
+`uvm_info_begin([ID], [MSG], [VERBOSITY], [RM] = __uvm_msg)
+-template_end
+
+-template_context 05_macros.05_messages.123
+-template_name uvm_info_end
+-template_start
+`uvm_info_end
+-template_end
+
+-template_context 05_macros.05_messages.124
+-template_name uvm_warning_begin([ID], [MSG], [RM] = __uvm_msg)
+-template_start
+`uvm_warning_begin([ID], [MSG], [RM] = __uvm_msg)
+-template_end
+
+-template_context 05_macros.05_messages.125
+-template_name uvm_warning_end
+-template_start
+`uvm_warning_end
+-template_end
+
+-template_context 05_macros.05_messages.126
+-template_name uvm_error_begin([ID], [MSG], [RM] = __uvm_msg)
+-template_start
+`uvm_error_begin([ID], [MSG], [RM] = __uvm_msg)
+-template_end
+
+-template_context 05_macros.05_messages.127
+-template_name uvm_error_end
+-template_start
+`uvm_error_end
+-template_end
+
+-template_context 05_macros.05_messages.128
+-template_name uvm_fatal_begin([ID], [MSG], [RM] = __uvm_msg)
+-template_start
+`uvm_fatal_begin([ID], [MSG], [RM] = __uvm_msg)
+-template_end
+
+-template_context 05_macros.05_messages.129
+-template_name uvm_fatal_end
+-template_start
+`uvm_fatal_end
+-template_end
+
+-template_context 05_macros.05_messages.130
+-template_name uvm_info_context_begin([ID], [MSG], [VERBOSITY], [RO], [RM] = __uvm_msg)
+-template_start
+`uvm_info_context_begin([ID], [MSG], [VERBOSITY], [RO], [RM] = __uvm_msg)
+-template_end
+
+-template_context 05_macros.05_messages.131
+-template_name uvm_info_context_end
+-template_start
+`uvm_info_context_end
+-template_end
+
+-template_context 05_macros.05_messages.132
+-template_name uvm_warning_context_begin([ID], [MSG], [RO], [RM] = __uvm_msg)
+-template_start
+`uvm_warning_context_begin([ID], [MSG], [RO], [RM] = __uvm_msg)
+-template_end
+
+-template_context 05_macros.05_messages.133
+-template_name uvm_warning_context_end
+-template_start
+`uvm_warning_context_end
+-template_end
+
+-template_context 05_macros.05_messages.134
+-template_name uvm_error_context_begin([ID], [MSG], [RO], [RM] = __uvm_msg)
+-template_start
+`uvm_error_context_begin([ID], [MSG], [RO], [RM] = __uvm_msg)
+-template_end
+
+-template_context 05_macros.05_messages.135
+-template_name uvm_error_context_end
+-template_start
+`uvm_error_context_end
+-template_end
+
+-template_context 05_macros.05_messages.136
+-template_name uvm_fatal_context_begin([ID], [MSG], [RO], [RM] = __uvm_msg)
+-template_start
+`uvm_fatal_context_begin([ID], [MSG], [RO], [RM] = __uvm_msg)
+-template_end
+
+-template_context 05_macros.05_messages.137
+-template_name uvm_fatal_context_end
+-template_start
+`uvm_fatal_context_end
+-template_end
+
+-template_context 05_macros.05_messages.138
+-template_name uvm_message_add_tag(NAME, [VALUE], ACTION=(UVM_LOG|UVM_[RM]_RECORD))
+-template_start
+`uvm_message_add_tag(NAME, [VALUE], ACTION=(UVM_LOG|UVM_[RM]_RECORD))
+-template_end
+
+-template_context 05_macros.05_messages.139
+-template_name uvm_message_add_int([VAR], [RADIX], [LABEL=""], ACTION=(UVM_LOG|UVM_[RM]_RECORD))
+-template_start
+`uvm_message_add_int([VAR], [RADIX], [LABEL=""], ACTION=(UVM_LOG|UVM_[RM]_RECORD))
+-template_end
+
+-template_context 05_macros.05_messages.140
+-template_name uvm_message_add_string([VAR], [LABEL=""], ACTION=(UVM_LOG|UVM_[RM]_RECORD))
+-template_start
+`uvm_message_add_string([VAR], [LABEL=""], ACTION=(UVM_LOG|UVM_[RM]_RECORD))
+-template_end
+
+-template_context 05_macros.05_messages.141
+-template_name uvm_message_add_object([VAR], [LABEL=""], ACTION=(UVM_LOG|UVM_[RM]_RECORD))
+-template_start
+`uvm_message_add_object([VAR], [LABEL=""], ACTION=(UVM_LOG|UVM_[RM]_RECORD))
+-template_end
+

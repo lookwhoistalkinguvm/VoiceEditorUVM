@@ -1,0 +1,33 @@
+`define uvm_info(ID, MSG, VERBOSITY)
+`define uvm_warning(ID, MSG)
+`define uvm_error(ID, MSG)
+`define uvm_fatal(ID, MSG)
+`define uvm_info_context(ID, MSG, VERBOSITY, RO)
+`define uvm_warning_context(ID, MSG, RO)
+`define uvm_error_context(ID, MSG, RO)
+`define uvm_fatal_context(ID, MSG, RO)
+`define uvm_message_begin(SEVERITY, ID, MSG, VERBOSITY, FILE, LINE, RM)
+`define uvm_message_end
+`define uvm_message_context_begin(SEVERITY, ID, MSG, VERBOSITY, FILE, LINE, RO, RM)
+`define uvm_message_context_end
+`define uvm_info_begin(ID, MSG, VERBOSITY, RM = __uvm_msg)
+`define uvm_info_end
+`define uvm_warning_begin(ID, MSG, RM = __uvm_msg)
+`define uvm_warning_end
+`define uvm_error_begin(ID, MSG, RM = __uvm_msg)
+`define uvm_error_end
+`define uvm_fatal_begin(ID, MSG, RM = __uvm_msg)
+`define uvm_fatal_end
+`define uvm_info_context_begin(ID, MSG, VERBOSITY, RO, RM = __uvm_msg)
+`define uvm_info_context_end
+`define uvm_warning_context_begin(ID, MSG, RO, RM = __uvm_msg)
+`define uvm_warning_context_end
+`define uvm_error_context_begin(ID, MSG, RO, RM = __uvm_msg)
+`define uvm_error_context_end
+`define uvm_fatal_context_begin(ID, MSG, RO, RM = __uvm_msg)
+`define uvm_fatal_context_end
+`define uvm_message_add_tag(NAME, VALUE, ACTION=(UVM_LOG|UVM_RM_RECORD))
+`define uvm_message_add_int(VAR, RADIX, LABEL="", ACTION=(UVM_LOG|UVM_RM_RECORD))
+`define uvm_message_add_string(VAR, LABEL="", ACTION=(UVM_LOG|UVM_RM_RECORD))
+`define uvm_message_add_object(VAR, LABEL="", ACTION=(UVM_LOG|UVM_RM_RECORD))
+

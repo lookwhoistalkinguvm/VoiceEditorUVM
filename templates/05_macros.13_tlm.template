@@ -1,0 +1,408 @@
+-template_context 05_macros.13_tlm.110
+-template_name uvm_blocking_put_[imp]_decl([SFX])
+-template_start
+`uvm_blocking_put_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.111
+-template_name uvm_nonblocking_put_[imp]_decl([SFX])
+-template_start
+`uvm_nonblocking_put_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.112
+-template_name uvm_put_[imp]_decl([SFX])
+-template_start
+`uvm_put_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.113
+-template_name uvm_blocking_get_[imp]_decl([SFX])
+-template_start
+`uvm_blocking_get_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.114
+-template_name uvm_nonblocking_get_[imp]_decl([SFX])
+-template_start
+`uvm_nonblocking_get_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.115
+-template_name uvm_get_[imp]_decl([SFX])
+-template_start
+`uvm_get_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.116
+-template_name uvm_blocking_peek_[imp]_decl([SFX])
+-template_start
+`uvm_blocking_peek_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.117
+-template_name uvm_nonblocking_peek_[imp]_decl([SFX])
+-template_start
+`uvm_nonblocking_peek_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.118
+-template_name uvm_peek_[imp]_decl([SFX])
+-template_start
+`uvm_peek_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.119
+-template_name uvm_blocking_get_peek_[imp]_decl([SFX])
+-template_start
+`uvm_blocking_get_peek_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.120
+-template_name uvm_nonblocking_get_peek_[imp]_decl([SFX])
+-template_start
+`uvm_nonblocking_get_peek_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.121
+-template_name uvm_get_peek_[imp]_decl([SFX])
+-template_start
+`uvm_get_peek_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.122
+-template_name uvm_blocking_master_[imp]_decl([SFX])
+-template_start
+`uvm_blocking_master_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.123
+-template_name uvm_nonblocking_master_[imp]_decl([SFX])
+-template_start
+`uvm_nonblocking_master_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.124
+-template_name uvm_master_[imp]_decl([SFX])
+-template_start
+`uvm_master_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.125
+-template_name uvm_blocking_slave_[imp]_decl([SFX])
+-template_start
+`uvm_blocking_slave_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.126
+-template_name uvm_nonblocking_slave_[imp]_decl([SFX])
+-template_start
+`uvm_nonblocking_slave_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.127
+-template_name uvm_slave_[imp]_decl([SFX])
+-template_start
+`uvm_slave_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.128
+-template_name uvm_blocking_transport_[imp]_decl([SFX])
+-template_start
+`uvm_blocking_transport_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.129
+-template_name uvm_nonblocking_transport_[imp]_decl([SFX])
+-template_start
+`uvm_nonblocking_transport_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.130
+-template_name uvm_non_blocking_transport_[imp]_decl([SFX])
+-template_start
+`uvm_non_blocking_transport_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.131
+-template_name uvm_transport_[imp]_decl([SFX])
+-template_start
+`uvm_transport_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.132
+-template_name uvm_analysis_[imp]_decl([SFX])
+-template_start
+`uvm_analysis_[imp]_decl([SFX])
+-template_end
+
+-template_context 05_macros.13_tlm.133
+-template_name UVM_BLOCKING_PUT_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_start
+`UVM_BLOCKING_PUT_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_end
+
+-template_context 05_macros.13_tlm.134
+-template_name UVM_BLOCKING_GET_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_start
+`UVM_BLOCKING_GET_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_end
+
+-template_context 05_macros.13_tlm.135
+-template_name UVM_BLOCKING_PEEK_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_start
+`UVM_BLOCKING_PEEK_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_end
+
+-template_context 05_macros.13_tlm.136
+-template_name UVM_NONBLOCKING_PUT_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_start
+`UVM_NONBLOCKING_PUT_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_end
+
+-template_context 05_macros.13_tlm.137
+-template_name UVM_NONBLOCKING_GET_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_start
+`UVM_NONBLOCKING_GET_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_end
+
+-template_context 05_macros.13_tlm.138
+-template_name UVM_NONBLOCKING_PEEK_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_start
+`UVM_NONBLOCKING_PEEK_IMP_[SFX]([SFX], [imp], [TYPE], [arg])
+-template_end
+
+-template_context 05_macros.13_tlm.139
+-template_name UVM_BLOCKING_TRANSPORT_IMP_[SFX]([SFX], [imp], [REQ], RSP, req_[arg], rsp_[arg])
+-template_start
+`UVM_BLOCKING_TRANSPORT_IMP_[SFX]([SFX], [imp], [REQ], RSP, req_[arg], rsp_[arg])
+-template_end
+
+-template_context 05_macros.13_tlm.140
+-template_name UVM_NONBLOCKING_TRANSPORT_IMP_[SFX]([SFX], [imp], [REQ], RSP, req_[arg], rsp_[arg])
+-template_start
+`UVM_NONBLOCKING_TRANSPORT_IMP_[SFX]([SFX], [imp], [REQ], RSP, req_[arg], rsp_[arg])
+-template_end
+
+-template_context 05_macros.13_tlm.141
+-template_name UVM_SEQ_ITEM_PULL_IMP([imp], [REQ], RSP, req_[arg], rsp_[arg])
+-template_start
+`UVM_SEQ_ITEM_PULL_IMP([imp], [REQ], RSP, req_[arg], rsp_[arg])
+-template_end
+
+-template_context 05_macros.13_tlm.142
+-template_name UVM_TLM_BLOCKING_PUT_MASK          (1<<0)
+-template_start
+`UVM_TLM_BLOCKING_PUT_MASK          (1<<0)
+-template_end
+
+-template_context 05_macros.13_tlm.143
+-template_name UVM_TLM_BLOCKING_GET_MASK          (1<<1)
+-template_start
+`UVM_TLM_BLOCKING_GET_MASK          (1<<1)
+-template_end
+
+-template_context 05_macros.13_tlm.144
+-template_name UVM_TLM_BLOCKING_PEEK_MASK         (1<<2)
+-template_start
+`UVM_TLM_BLOCKING_PEEK_MASK         (1<<2)
+-template_end
+
+-template_context 05_macros.13_tlm.145
+-template_name UVM_TLM_BLOCKING_TRANSPORT_MASK    (1<<3)
+-template_start
+`UVM_TLM_BLOCKING_TRANSPORT_MASK    (1<<3)
+-template_end
+
+-template_context 05_macros.13_tlm.146
+-template_name UVM_TLM_NONBLOCKING_PUT_MASK       (1<<4)
+-template_start
+`UVM_TLM_NONBLOCKING_PUT_MASK       (1<<4)
+-template_end
+
+-template_context 05_macros.13_tlm.147
+-template_name UVM_TLM_NONBLOCKING_GET_MASK       (1<<5)
+-template_start
+`UVM_TLM_NONBLOCKING_GET_MASK       (1<<5)
+-template_end
+
+-template_context 05_macros.13_tlm.148
+-template_name UVM_TLM_NONBLOCKING_PEEK_MASK      (1<<6)
+-template_start
+`UVM_TLM_NONBLOCKING_PEEK_MASK      (1<<6)
+-template_end
+
+-template_context 05_macros.13_tlm.149
+-template_name UVM_TLM_NONBLOCKING_TRANSPORT_MASK (1<<7)
+-template_start
+`UVM_TLM_NONBLOCKING_TRANSPORT_MASK (1<<7)
+-template_end
+
+-template_context 05_macros.13_tlm.150
+-template_name UVM_TLM_ANALYSIS_MASK              (1<<8)
+-template_start
+`UVM_TLM_ANALYSIS_MASK              (1<<8)
+-template_end
+
+-template_context 05_macros.13_tlm.151
+-template_name UVM_TLM_MASTER_BIT_MASK            (1<<9)
+-template_start
+`UVM_TLM_MASTER_BIT_MASK            (1<<9)
+-template_end
+
+-template_context 05_macros.13_tlm.152
+-template_name UVM_TLM_SLAVE_BIT_MASK             (1<<10)
+-template_start
+`UVM_TLM_SLAVE_BIT_MASK             (1<<10)
+-template_end
+
+-template_context 05_macros.13_tlm.153
+-template_name UVM_TLM_PUT_MASK                  (`UVM_TLM_BLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_PUT_MASK)
+-template_start
+`UVM_TLM_PUT_MASK                  (`UVM_TLM_BLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_PUT_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.154
+-template_name UVM_TLM_GET_MASK                  (`UVM_TLM_BLOCKING_GET_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK)
+-template_start
+`UVM_TLM_GET_MASK                  (`UVM_TLM_BLOCKING_GET_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.155
+-template_name UVM_TLM_PEEK_MASK                 (`UVM_TLM_BLOCKING_PEEK_MASK   | `UVM_TLM_NONBLOCKING_PEEK_MASK)
+-template_start
+`UVM_TLM_PEEK_MASK                 (`UVM_TLM_BLOCKING_PEEK_MASK   | `UVM_TLM_NONBLOCKING_PEEK_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.156
+-template_name UVM_TLM_BLOCKING_GET_PEEK_MASK    (`UVM_TLM_BLOCKING_GET_MASK    | `UVM_TLM_BLOCKING_PEEK_MASK)
+-template_start
+`UVM_TLM_BLOCKING_GET_PEEK_MASK    (`UVM_TLM_BLOCKING_GET_MASK    | `UVM_TLM_BLOCKING_PEEK_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.157
+-template_name UVM_TLM_BLOCKING_MASTER_MASK      (`UVM_TLM_BLOCKING_PUT_MASK       | `UVM_TLM_BLOCKING_GET_MASK | `UVM_TLM_BLOCKING_PEEK_MASK | `UVM_TLM_MASTER_BIT_MASK)
+-template_start
+`UVM_TLM_BLOCKING_MASTER_MASK      (`UVM_TLM_BLOCKING_PUT_MASK       | `UVM_TLM_BLOCKING_GET_MASK | `UVM_TLM_BLOCKING_PEEK_MASK | `UVM_TLM_MASTER_BIT_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.158
+-template_name UVM_TLM_BLOCKING_SLAVE_MASK       (`UVM_TLM_BLOCKING_PUT_MASK       | `UVM_TLM_BLOCKING_GET_MASK | `UVM_TLM_BLOCKING_PEEK_MASK | `UVM_TLM_SLAVE_BIT_MASK)
+-template_start
+`UVM_TLM_BLOCKING_SLAVE_MASK       (`UVM_TLM_BLOCKING_PUT_MASK       | `UVM_TLM_BLOCKING_GET_MASK | `UVM_TLM_BLOCKING_PEEK_MASK | `UVM_TLM_SLAVE_BIT_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.159
+-template_name UVM_TLM_NONBLOCKING_GET_PEEK_MASK (`UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK)
+-template_start
+`UVM_TLM_NONBLOCKING_GET_PEEK_MASK (`UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.160
+-template_name UVM_TLM_NONBLOCKING_MASTER_MASK   (`UVM_TLM_NONBLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK | `UVM_TLM_MASTER_BIT_MASK)
+-template_start
+`UVM_TLM_NONBLOCKING_MASTER_MASK   (`UVM_TLM_NONBLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK | `UVM_TLM_MASTER_BIT_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.161
+-template_name UVM_TLM_NONBLOCKING_SLAVE_MASK    (`UVM_TLM_NONBLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK | `UVM_TLM_SLAVE_BIT_MASK)
+-template_start
+`UVM_TLM_NONBLOCKING_SLAVE_MASK    (`UVM_TLM_NONBLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK | `UVM_TLM_SLAVE_BIT_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.162
+-template_name UVM_TLM_GET_PEEK_MASK             (`UVM_TLM_GET_MASK | `UVM_TLM_PEEK_MASK)
+-template_start
+`UVM_TLM_GET_PEEK_MASK             (`UVM_TLM_GET_MASK | `UVM_TLM_PEEK_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.163
+-template_name UVM_TLM_MASTER_MASK               (`UVM_TLM_BLOCKING_MASTER_MASK    | `UVM_TLM_NONBLOCKING_MASTER_MASK)
+-template_start
+`UVM_TLM_MASTER_MASK               (`UVM_TLM_BLOCKING_MASTER_MASK    | `UVM_TLM_NONBLOCKING_MASTER_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.164
+-template_name UVM_TLM_SLAVE_MASK                (`UVM_TLM_BLOCKING_SLAVE_MASK    | `UVM_TLM_NONBLOCKING_SLAVE_MASK)
+-template_start
+`UVM_TLM_SLAVE_MASK                (`UVM_TLM_BLOCKING_SLAVE_MASK    | `UVM_TLM_NONBLOCKING_SLAVE_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.165
+-template_name UVM_TLM_TRANSPORT_MASK            (`UVM_TLM_BLOCKING_TRANSPORT_MASK | `UVM_TLM_NONBLOCKING_TRANSPORT_MASK)
+-template_start
+`UVM_TLM_TRANSPORT_MASK            (`UVM_TLM_BLOCKING_TRANSPORT_MASK | `UVM_TLM_NONBLOCKING_TRANSPORT_MASK)
+-template_end
+
+-template_context 05_macros.13_tlm.166
+-template_name UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK       (1<<0)
+-template_start
+`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK       (1<<0)
+-template_end
+
+-template_context 05_macros.13_tlm.167
+-template_name UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK       (1<<1)
+-template_start
+`UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK       (1<<1)
+-template_end
+
+-template_context 05_macros.13_tlm.168
+-template_name UVM_SEQ_ITEM_ITEM_DONE_MASK           (1<<2)
+-template_start
+`UVM_SEQ_ITEM_ITEM_DONE_MASK           (1<<2)
+-template_end
+
+-template_context 05_macros.13_tlm.169
+-template_name UVM_SEQ_ITEM_HAS_DO_AVAILABLE_MASK    (1<<3)
+-template_start
+`UVM_SEQ_ITEM_HAS_DO_AVAILABLE_MASK    (1<<3)
+-template_end
+
+-template_context 05_macros.13_tlm.170
+-template_name UVM_SEQ_ITEM_WAIT_FOR_SEQUENCES_MASK  (1<<4)
+-template_start
+`UVM_SEQ_ITEM_WAIT_FOR_SEQUENCES_MASK  (1<<4)
+-template_end
+
+-template_context 05_macros.13_tlm.171
+-template_name UVM_SEQ_ITEM_PUT_RESPONSE_MASK        (1<<5)
+-template_start
+`UVM_SEQ_ITEM_PUT_RESPONSE_MASK        (1<<5)
+-template_end
+
+-template_context 05_macros.13_tlm.172
+-template_name UVM_SEQ_ITEM_PUT_MASK                 (1<<6)
+-template_start
+`UVM_SEQ_ITEM_PUT_MASK                 (1<<6)
+-template_end
+
+-template_context 05_macros.13_tlm.173
+-template_name UVM_SEQ_ITEM_GET_MASK                 (1<<7)
+-template_start
+`UVM_SEQ_ITEM_GET_MASK                 (1<<7)
+-template_end
+
+-template_context 05_macros.13_tlm.174
+-template_name UVM_SEQ_ITEM_PEEK_MASK                (1<<8)
+-template_start
+`UVM_SEQ_ITEM_PEEK_MASK                (1<<8)
+-template_end
+
+-template_context 05_macros.13_tlm.175
+-template_name UVM_SEQ_ITEM_PULL_MASK  (`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK | `UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK |
+-template_start
+`UVM_SEQ_ITEM_PULL_MASK  (`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK | `UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK |
+-template_end
+
+-template_context 05_macros.13_tlm.176
+-template_name UVM_SEQ_ITEM_UNI_PULL_MASK (`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK | `UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK |
+-template_start
+`UVM_SEQ_ITEM_UNI_PULL_MASK (`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK | `UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK |
+-template_end
+
+-template_context 05_macros.13_tlm.177
+-template_name UVM_SEQ_ITEM_PUSH_MASK  (`UVM_SEQ_ITEM_PUT_MASK)
+-template_start
+`UVM_SEQ_ITEM_PUSH_MASK  (`UVM_SEQ_ITEM_PUT_MASK)
+-template_end
+

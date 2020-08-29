@@ -1,0 +1,6 @@
+
+-template_context 00_python.02_library_modules.00_keyword_module.110
+-template_name keyword.iskeyword([item])
+-template_start
+keyword.iskeyword([item])
+-template_end

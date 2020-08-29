@@ -1,0 +1,24 @@
+-template_context 05_macros.10_reg_defines.110
+-template_name UVM_REG_ADDR_WIDTH [64]
+-template_start
+`UVM_REG_ADDR_WIDTH [64]
+-template_end
+
+-template_context 05_macros.10_reg_defines.111
+-template_name UVM_REG_DATA_WIDTH [64]
+-template_start
+`UVM_REG_DATA_WIDTH [64]
+-template_end
+
+-template_context 05_macros.10_reg_defines.112
+-template_name UVM_REG_BYTENABLE_WIDTH ((`UVM_REG_DATA_WIDTH-1)/8+1)
+-template_start
+`UVM_REG_BYTENABLE_WIDTH ((`UVM_REG_DATA_WIDTH-1)/8+1)
+-template_end
+
+-template_context 05_macros.10_reg_defines.113
+-template_name UVM_REG_CVR_WIDTH [32]
+-template_start
+`UVM_REG_CVR_WIDTH [32]
+-template_end
+

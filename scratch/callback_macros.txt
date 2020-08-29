@@ -1,0 +1,11 @@
+`define uvm_register_cb(T,CB)
+`define uvm_set_super_type(T,ST)
+`define uvm_do_callbacks(T,CB,METHOD)
+`define uvm_do_obj_callbacks(T,CB,OBJ,METHOD)
+`define uvm_do_callbacks_exit_on(T,CB,METHOD,VAL)
+`define uvm_do_obj_callbacks_exit_on(T,CB,OBJ,METHOD,VAL)
+`define uvm_cb_trace(OBJ,CB,OPER)
+`define uvm_cb_trace_noobj(CB,OPER)
+`define uvm_cb_trace_noobj(CB,OPER)
+`define uvm_cb_trace(OBJ,CB,OPER)
+

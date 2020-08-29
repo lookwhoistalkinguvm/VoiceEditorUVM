@@ -1,0 +1,54 @@
+
+-template_context 00_python.00_comparison_operators.110
+-template_name =
+-template_start
+=
+-template_end
+
+-template_context 00_python.00_comparison_operators.111
+-template_name ==
+-template_start
+==
+-template_end
+
+-template_context 00_python.00_comparison_operators.112
+-template_name !=
+-template_start
+!=
+-template_end
+
+-template_context 00_python.00_comparison_operators.113
+-template_name <
+-template_start
+<
+-template_end
+
+-template_context 00_python.00_comparison_operators.114
+-template_name >
+-template_start
+>
+-template_end
+
+-template_context 00_python.00_comparison_operators.115
+-template_name >=
+-template_start
+>=
+-template_end
+
+-template_context 00_python.00_comparison_operators.116
+-template_name <=
+-template_start
+<=
+-template_end
+
+-template_context 00_python.00_comparison_operators.117
+-template_name +=
+-template_start
++=
+-template_end
+
+-template_context 00_python.00_comparison_operators.118
+-template_name -=
+-template_start
+-=
+-template_end

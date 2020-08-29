@@ -1,0 +1,41 @@
+
+
+
+-template_context 00_python.08_scripts.110
+
+-template_name Directory Walker
+-template_start
+import os
+import re
+
+searchRoot=r"[]"
+
+for path, directories,files in os.walk([searchRoot]):
+
+ for file in files:
+
+  [fullFileName]=os.path.join(path,file)
+  try:
+   fileHandle=open([fullFileName],"r")
+  except:
+   print ("Unable to open file: ", [fullFileName])
+   sys.exit([1])
+  else:
+   fileList=fileHandle.readlines()
+   fileHandle.close()
+  lineNumber=0
+  filterExpression="[]"
+  for line in fileList :
+   line=line.rstrip()
+   m=re.match(r'%s'%filterExpression,line)
+   if(m):
+    self.process_line([fullFileName],lineNumber,line.rstrip())
+   lineNumber+=1
+
+def process_line([self],fullFileName,lineNumber,line):
+ [do stuff]
+
+-template_end
+
+
+

@@ -1,0 +1,30 @@
+-template_context 05_macros.11_resources.110
+-template_name uvm_resource_read([SUCCESS], [RSRC], TYPE, [VAL], [OBJ=null])
+-template_start
+`uvm_resource_read([SUCCESS], [RSRC], TYPE, [VAL], [OBJ=null])
+-template_end
+
+-template_context 05_macros.11_resources.111
+-template_name uvm_resource_builtin_int_read([SUCCESS], [RSRC], [VAL], [OBJ=null])
+-template_start
+`uvm_resource_builtin_int_read([SUCCESS], [RSRC], [VAL], [OBJ=null])
+-template_end
+
+-template_context 05_macros.11_resources.112
+-template_name uvm_resource_int_read([SUCCESS], [RSRC], TYPE, [VAL], [OBJ=null])
+-template_start
+`uvm_resource_int_read([SUCCESS], [RSRC], TYPE, [VAL], [OBJ=null])
+-template_end
+
+-template_context 05_macros.11_resources.113
+-template_name uvm_resource_enum_read([SUCCESS], [RSRC], TYPE, [VAL], [OBJ=null])
+-template_start
+`uvm_resource_enum_read([SUCCESS], [RSRC], TYPE, [VAL], [OBJ=null])
+-template_end
+
+-template_context 05_macros.11_resources.114
+-template_name uvm_resource_real_read([SUCCESS], [RSRC], [VAL], [OBJ=null])
+-template_start
+`uvm_resource_real_read([SUCCESS], [RSRC], [VAL], [OBJ=null])
+-template_end
+

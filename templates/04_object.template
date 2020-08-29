@@ -1,0 +1,67 @@
+
+-template_context 04_object.109
+
+-template_name variable substitution
+-template_start
+\[[]\]
+-template_end
+
+
+
+-template_context 04_object.110
+
+-template_name generic object class definition
+-template_start
+class [class_name] extends [base_class];
+
+
+ // Member variables declarations
+
+
+ extern function new(string name="[class_name]");
+
+ `uvm_object_utils_begin([class_name])
+ `uvm_object_utils_end
+
+endclass
+
+function [class_name]::new(string name="[class_name]");
+ super.new(name);
+endfunction
+-template_end
+
+
+
+-template_context 04_object.120
+
+-template_name sequence class definition
+-template_start
+`ifndef [class_name]
+`define [class_name]
+
+class [class_name] extends [base_class];
+
+
+ // Member variables declarations
+
+
+ extern function new(string name="[class_name]");
+ extern virtual task body();
+
+ `uvm_object_utils_begin([class_name])
+ `uvm_object_utils_end
+
+endclass
+
+function [class_name]::new(string name="[class_name]");
+ super.new(name);
+endfunction
+
+task [class_name]::body();
+ super.body;
+
+
+endtask
+`endif
+-template_end
+

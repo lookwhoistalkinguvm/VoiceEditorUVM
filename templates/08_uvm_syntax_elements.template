@@ -1,0 +1,103 @@
+
+
+
+-template_context 08_uvm_syntax_elements.110
+
+-template_name [[]] = []::type_id::create([]);
+-template_start
+[[]] = []::type_id::create([]);
+-template_end
+
+
+
+-template_context 08_uvm_syntax_elements.120
+
+-template_name uvm_event [[]];
+-template_start
+uvm_event [[]];
+-template_end
+
+
+
+-template_context 08_uvm_syntax_elements.130
+
+-template_name [[]]=uvm_event_pool::get_global_pool();
+-template_start
+[[]]=uvm_event_pool::get_global_pool();
+-template_end
+
+
+
+-template_context 08_uvm_syntax_elements.140
+
+-template_name [[]]= m_event_pool.get("[string key]");
+-template_start
+if (!m_event_pool.exists([]))
+ `uvm_fatal("EVENT POOL","Unable to get handle to event []")
+else
+ [[]]= m_event_pool.get("[]");
+-template_end
+
+
+
+-template_context 08_uvm_syntax_elements.150
+
+-template_name [m_event_pool].add([key],[item]);
+-template_start
+[m_event_pool].add("[key] item",[]);
+-template_end
+
+
+
+-template_context 08_uvm_syntax_elements.160
+
+-template_name uvm_config_db#([])::[]([]);
+-template_start
+uvm_config_db#([])::[]([]);
+-template_end
+
+
+
+-template_context 08_uvm_syntax_elements.170
+
+-template_name  assert(this.randomize()) else `uvm_fatal([m_name], "randomisation failed")
+-template_start
+assert(this.randomize()) else `uvm_fatal([m_name], "randomisation failed")
+-template_end
+
+
+
+-template_context 08_uvm_syntax_elements.180
+
+-template_name register configuration
+-template_start
+
+[register name]={
+
+ "address":[],
+
+ "fields": {
+
+
+ }
+}
+registerList.append([register name])
+-template_end
+
+
+
+-template_context 08_uvm_syntax_elements.190
+
+-template_name register field configuration
+-template_start
+  "[field name]":{
+   "msb": [],
+   "lsb": [],
+   "access":"[RW]",
+   "volatile":[0],
+   "reset":[0x0],
+   "has_reset":[1],
+   "is_rand":[1],
+   "individually_accessible":[0],
+  },
+-template_end

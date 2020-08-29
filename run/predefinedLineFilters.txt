@@ -1,0 +1,5 @@
+\bdef\b#function definitions
+\b(function|task)\b#UVM function or task
+\bclass\b#class definitions
+\[[\w ]*?\]#template variables
+error

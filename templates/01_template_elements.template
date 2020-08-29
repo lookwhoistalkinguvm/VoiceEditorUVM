@@ -1,0 +1,66 @@
+
+
+
+-template_context 01_template_elements.109
+
+-template_name \[[]\]
+-template_start
+\[[]\]
+-template_end
+
+
+
+-template_context 01_template_elements.110
+
+-template_name single template
+-template_start
+#
+#
+#
+#-template_context [00]_[top].[110]
+#
+#-template_name []
+#-template_start
+#-template_end
+-template_end
+
+
+
+-template_context 01_template_elements.111
+
+-template_name fill in template
+-template_start
+
+import [template name]Template
+from string import Template
+
+
+
+class FillIn[template name]Template(object):
+
+
+
+ def __call__(self):
+
+
+
+  templateAssignments = dict (
+  )
+
+
+  filledInTemplate=\
+   Template([template name]Template.templateString).substitute(templateAssignments)
+
+  return filledInTemplate
+-template_end
+
+
+
+-template_context 01_template_elements.112
+
+-template_name template definition
+-template_start
+templateString="""
+
+"""
+-template_end

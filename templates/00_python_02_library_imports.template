@@ -1,0 +1,27 @@
+
+
+
+-template_context 00_python.02_library_modules.03_library_imports.110
+
+-template_name import os
+-template_start
+import os
+-template_end
+
+
+
+-template_context 00_python.02_library_modules.03_library_imports.111
+
+-template_name import re
+-template_start
+import re
+-template_end
+
+
+
+-template_context 00_python.02_library_modules.03_library_imports.112
+
+-template_name import subprocess
+-template_start
+import subprocess
+-template_end

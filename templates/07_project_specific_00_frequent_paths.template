@@ -1,0 +1,49 @@
+
+
+
+-template_context 07_project_specific.00_frequent_paths.110
+
+-template_name C:\Users\uvm\Projects\iic
+-template_start
+C:\Users\uvm\Projects\iic
+-template_end
+
+
+
+-template_context 07_project_specific.00_frequent_paths.111
+
+-template_name iic_tb
+-template_start
+iic_tb
+-template_end
+
+
+
+-template_context 07_project_specific.00_frequent_paths.112
+
+-template_name tb
+-template_start
+tb
+-template_end
+
+
+
+-template_context 07_project_specific.00_frequent_paths.113
+
+-template_name env
+-template_start
+env
+-template_end
+
+
+
+-template_context 07_project_specific.00_frequent_paths.114
+
+-template_name top
+-template_start
+top
+-template_end
+
+
+
+

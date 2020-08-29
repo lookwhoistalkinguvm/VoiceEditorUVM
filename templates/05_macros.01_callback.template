@@ -1,0 +1,60 @@
+-template_context 05_macros.01_callback.110
+-template_name uvm_register_cb([T],[CB])
+-template_start
+`uvm_register_cb([T],[CB])
+-template_end
+
+-template_context 05_macros.01_callback.111
+-template_name uvm_set_super_type([T],[ST])
+-template_start
+`uvm_set_super_type([T],[ST])
+-template_end
+
+-template_context 05_macros.01_callback.112
+-template_name uvm_do_callbacks([T],[CB],[METHOD])
+-template_start
+`uvm_do_callbacks([T],[CB],[METHOD])
+-template_end
+
+-template_context 05_macros.01_callback.113
+-template_name uvm_do_obj_callbacks([T],[CB],[OBJ],[METHOD])
+-template_start
+`uvm_do_obj_callbacks([T],[CB],[OBJ],[METHOD])
+-template_end
+
+-template_context 05_macros.01_callback.114
+-template_name uvm_do_callbacks_exit_on([T],[CB],[METHOD],[VAL])
+-template_start
+`uvm_do_callbacks_exit_on([T],[CB],[METHOD],[VAL])
+-template_end
+
+-template_context 05_macros.01_callback.115
+-template_name uvm_do_obj_callbacks_exit_on([T],[CB],[OBJ],[METHOD],[VAL])
+-template_start
+`uvm_do_obj_callbacks_exit_on([T],[CB],[OBJ],[METHOD],[VAL])
+-template_end
+
+-template_context 05_macros.01_callback.116
+-template_name uvm_cb_trace([OBJ],[CB],[OPER])
+-template_start
+`uvm_cb_trace([OBJ],[CB],[OPER])
+-template_end
+
+-template_context 05_macros.01_callback.117
+-template_name uvm_cb_trace_noobj([CB],[OPER])
+-template_start
+`uvm_cb_trace_noobj([CB],[OPER])
+-template_end
+
+-template_context 05_macros.01_callback.118
+-template_name uvm_cb_trace_noobj([CB],[OPER])
+-template_start
+`uvm_cb_trace_noobj([CB],[OPER])
+-template_end
+
+-template_context 05_macros.01_callback.119
+-template_name uvm_cb_trace([OBJ],[CB],[OPER])
+-template_start
+`uvm_cb_trace([OBJ],[CB],[OPER])
+-template_end
+

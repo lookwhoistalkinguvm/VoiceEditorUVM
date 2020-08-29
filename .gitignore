@@ -1,0 +1,13 @@
+
+*.backup
+recentDirectories.txt
+recentFiles.txt
+variableBackupList.txt
+duplicate_move_delete.py
+release/
+run/run_compile.py
+scratch/*.py
+*~
+.new
+.merged
+09_tb.template

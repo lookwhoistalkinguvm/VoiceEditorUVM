@@ -1,0 +1,390 @@
+-template_context 05_macros.08_print.110
+-template_name uvm_print_int([VALUE], [SIZE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_int([VALUE], [SIZE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.111
+-template_name uvm_print_named_int([NAME], [VALUE], [SIZE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_named_int([NAME], [VALUE], [SIZE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.112
+-template_name uvm_print_real([VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_real([VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.113
+-template_name uvm_print_named_real([NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_real([NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.114
+-template_name uvm_print_enum(TYPE, [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_enum(TYPE, [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.115
+-template_name uvm_print_named_enum(TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_enum(TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.116
+-template_name uvm_print_object([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_object([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.117
+-template_name uvm_print_named_object([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_named_object([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.118
+-template_name m_uvm_print_named_object([NAME], [VALUE], PRINTER)
+-template_start
+`m_uvm_print_named_object([NAME], [VALUE], PRINTER)
+-template_end
+
+-template_context 05_macros.08_print.119
+-template_name uvm_print_string([VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_string([VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.120
+-template_name uvm_print_named_string([NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_string([NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.121
+-template_name uvm_print_qda_int([ARRAY_TYPE], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_qda_int([ARRAY_TYPE], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.122
+-template_name uvm_print_named_qda_int([ARRAY_TYPE], [NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_named_qda_int([ARRAY_TYPE], [NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.123
+-template_name uvm_print_array_int([VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_array_int([VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.124
+-template_name uvm_print_named_array_int([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_named_array_int([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.125
+-template_name uvm_print_sarray_int([VALUE], RADIX=UVM_RADIX, [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_sarray_int([VALUE], RADIX=UVM_RADIX, [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.126
+-template_name uvm_print_named_sarray_int([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_named_sarray_int([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.127
+-template_name uvm_print_queue_int([VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_queue_int([VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.128
+-template_name uvm_print_named_queue_int([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_named_queue_int([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.129
+-template_name uvm_print_qda_real([ARRAY_TYPE], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_qda_real([ARRAY_TYPE], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.130
+-template_name uvm_print_named_qda_real([ARRAY_TYPE], [NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_qda_real([ARRAY_TYPE], [NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.131
+-template_name uvm_print_array_real([VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_array_real([VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.132
+-template_name uvm_print_named_array_real([NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_array_real([NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.133
+-template_name uvm_print_sarray_real([VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_sarray_real([VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.134
+-template_name uvm_print_named_sarray_real([NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_sarray_real([NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.135
+-template_name uvm_print_queue_real([VALUE],[PRINTER=printer])
+-template_start
+`uvm_print_queue_real([VALUE],[PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.136
+-template_name uvm_print_named_queue_real([NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_queue_real([NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.137
+-template_name uvm_print_qda_enum([ARRAY_TYPE], TYPE, [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_qda_enum([ARRAY_TYPE], TYPE, [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.138
+-template_name uvm_print_named_qda_enum([ARRAY_TYPE], TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_qda_enum([ARRAY_TYPE], TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.139
+-template_name uvm_print_array_enum(TYPE, [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_array_enum(TYPE, [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.140
+-template_name uvm_print_named_array_enum(TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_array_enum(TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.141
+-template_name uvm_print_sarray_enum(TYPE, [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_sarray_enum(TYPE, [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.142
+-template_name uvm_print_named_sarray_enum(TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_sarray_enum(TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.143
+-template_name uvm_print_queue_enum(TYPE, [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_queue_enum(TYPE, [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.144
+-template_name uvm_print_named_queue_enum(TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_queue_enum(TYPE, [NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.145
+-template_name uvm_print_qda_object([ARRAY_TYPE], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_qda_object([ARRAY_TYPE], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.146
+-template_name uvm_print_named_qda_object([ARRAY_TYPE], [NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_named_qda_object([ARRAY_TYPE], [NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.147
+-template_name uvm_print_array_object([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_array_object([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.148
+-template_name uvm_print_named_array_object([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_named_array_object([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.149
+-template_name uvm_print_sarray_object([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_sarray_object([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.150
+-template_name uvm_print_named_sarray_object([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_named_sarray_object([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.151
+-template_name uvm_print_queue_object([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_queue_object([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.152
+-template_name uvm_print_named_queue_object([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_named_queue_object([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.153
+-template_name uvm_print_qda_string([ARRAY_TYPE], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_qda_string([ARRAY_TYPE], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.154
+-template_name uvm_print_named_qda_string([ARRAY_TYPE], [NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_qda_string([ARRAY_TYPE], [NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.155
+-template_name uvm_print_array_string([VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_array_string([VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.156
+-template_name uvm_print_named_array_string([NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_array_string([NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.157
+-template_name uvm_print_sarray_string([VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_sarray_string([VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.158
+-template_name uvm_print_named_sarray_string([NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_sarray_string([NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.159
+-template_name uvm_print_queue_string([VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_queue_string([VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.160
+-template_name uvm_print_named_queue_string([NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_queue_string([NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.161
+-template_name uvm_print_aa_int_string([VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_aa_int_string([VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.162
+-template_name uvm_print_named_aa_int_string([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_start
+`uvm_print_named_aa_int_string([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=integral, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.163
+-template_name uvm_print_aa_object_string([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_aa_object_string([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.164
+-template_name uvm_print_named_aa_object_string([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_start
+`uvm_print_named_aa_object_string([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.165
+-template_name uvm_print_aa_string_string([VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_aa_string_string([VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.166
+-template_name uvm_print_named_aa_string_string([NAME], [VALUE], [PRINTER=printer])
+-template_start
+`uvm_print_named_aa_string_string([NAME], [VALUE], [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.167
+-template_name uvm_print_aa_int_int([VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=int, INDEX_TYPE=int, [PRINTER=printer])
+-template_start
+`uvm_print_aa_int_int([VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=int, INDEX_TYPE=int, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.168
+-template_name uvm_print_named_aa_int_int([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=int, INDEX_TYPE=int, [PRINTER=printer])
+-template_start
+`uvm_print_named_aa_int_int([NAME], [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=int, INDEX_TYPE=int, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.169
+-template_name uvm_print_aa_object_int([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], INDEX_TYPE=int, [PRINTER=printer])
+-template_start
+`uvm_print_aa_object_int([VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], INDEX_TYPE=int, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.170
+-template_name uvm_print_named_aa_object_int([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], INDEX_TYPE=int, [PRINTER=printer])
+-template_start
+`uvm_print_named_aa_object_int([NAME], [VALUE], [RECURSION_POLICY=UVM_DEFAULT_POLICY], INDEX_TYPE=int, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.171
+-template_name uvm_print_aa_string_int([VALUE], INDEX_TYPE=int, [PRINTER=printer])
+-template_start
+`uvm_print_aa_string_int([VALUE], INDEX_TYPE=int, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.172
+-template_name uvm_print_named_aa_string_int([NAME], [VALUE], INDEX_TYPE=int, [PRINTER=printer])
+-template_start
+`uvm_print_named_aa_string_int([NAME], [VALUE], INDEX_TYPE=int, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.173
+-template_name uvm_print_aa_int_enum(ENUM_TYPE, [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=int, [PRINTER=printer])
+-template_start
+`uvm_print_aa_int_enum(ENUM_TYPE, [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=int, [PRINTER=printer])
+-template_end
+
+-template_context 05_macros.08_print.174
+-template_name uvm_print_named_aa_int_enum([NAME], ENUM_TYPE, [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=int, [PRINTER=printer])
+-template_start
+`uvm_print_named_aa_int_enum([NAME], ENUM_TYPE, [VALUE], [RADIX=UVM_NORADIX], [VALUE]_TYPE=int, [PRINTER=printer])
+-template_end
+

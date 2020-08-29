@@ -1,0 +1,152 @@
+
+-template_context 00_python.05_string_functions.110
+-template_name [[str]].split([sep][,maxsplit])
+-template_start
+[[str]].split([sep][,maxsplit])
+-template_end
+
+-template_context 00_python.05_string_functions.111
+-template_name [[str]].isdigit()
+-template_start
+[[str]].isdigit()
+-template_end
+
+-template_context 00_python.05_string_functions.112
+-template_name [r]=[s].replace([o],[n],[c])
+-template_start
+[r]=[s].replace([o],[n],[c])
+-template_end
+
+-template_context 00_python.05_string_functions.113
+-template_name abs([])
+-template_start
+abs([])
+-template_end
+
+-template_context 00_python.05_string_functions.114
+-template_name [string]=Template([])
+-template_start
+[string]=Template([])
+-template_end
+
+-template_context 00_python.05_string_functions.115
+-template_name [string].replace([s],[old],[new],[maxreplace])
+-template_start
+[string].replace([s],[old],[new],[maxreplace])
+-template_end
+
+-template_context 00_python.05_string_functions.116
+-template_name [string].endswith([])
+-template_start
+[string].endswith([])
+-template_end
+
+-template_context 00_python.05_string_functions.117
+-template_name [string].startswith([])
+-template_start
+[string].startswith([])
+-template_end
+
+-template_context 00_python.05_string_functions.118
+-template_name [string].rstrip([])
+-template_start
+[string].rstrip([])
+-template_end
+
+-template_context 00_python.05_string_functions.119
+-template_name [string].lstrip([])
+-template_start
+[string].lstrip([])
+-template_end
+
+-template_context 00_python.05_string_functions.120
+-template_name [string].strip([])
+-template_start
+[string].strip([])
+-template_end
+
+-template_context 00_python.05_string_functions.121
+-template_name ["\n"].join([])
+-template_start
+["\n"].join([])
+-template_end
+
+-template_context 00_python.05_string_functions.122
+-template_name + "\n"
+-template_start
++ "\n"
+-template_end
+
+
+
+-template_context 00_python.05_string_functions.123
+
+-template_name [string].isspace()
+-template_start
+[string].isspace()
+-template_end
+
+
+
+-template_context 00_python.05_string_functions.124
+
+-template_name %s
+-template_start
+%s
+-template_end
+
+
+
+-template_context 00_python.05_string_functions.125
+
+-template_name %d
+-template_start
+%d
+-template_end
+
+
+
+-template_context 00_python.05_string_functions.126
+
+-template_name \n
+-template_start
+\n
+-template_end
+
+
+
+-template_context 00_python.05_string_functions.127
+
+-template_name "[]"%([])
+-template_start
+"[]"%([])
+-template_end
+
+
+
+-template_context 00_python.05_string_functions.128
+
+-template_name '[]'%([])
+-template_start
+'[]'%([])
+-template_end
+
+
+
+-template_context 00_python.05_string_functions.129
+
+-template_name multiline '[]'%([])
+-template_start
+'[]'%\
+ ([])
+-template_end
+
+
+
+-template_context 00_python.05_string_functions.130
+
+-template_name multiline "[]"%([])
+-template_start
+"[]"%\
+ ([])
+-template_end

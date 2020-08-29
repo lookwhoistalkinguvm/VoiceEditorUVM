@@ -1,0 +1,78 @@
+-template_context 05_macros.09_record.110
+-template_name uvm_record_attribute(TR_HANDLE,[NAME],[VALUE])
+-template_start
+`uvm_record_attribute(TR_HANDLE,[NAME],[VALUE])
+-template_end
+
+-template_context 05_macros.09_record.111
+-template_name uvm_record_attribute(TR_HANDLE,[NAME],[VALUE])
+-template_start
+`uvm_record_attribute(TR_HANDLE,[NAME],[VALUE])
+-template_end
+
+-template_context 05_macros.09_record.112
+-template_name uvm_record_int([NAME],[VALUE],SIZE,[RADIX = UVM_NORADIX])
+-template_start
+`uvm_record_int([NAME],[VALUE],SIZE,[RADIX = UVM_NORADIX])
+-template_end
+
+-template_context 05_macros.09_record.113
+-template_name uvm_record_string([NAME],[VALUE])
+-template_start
+`uvm_record_string([NAME],[VALUE])
+-template_end
+
+-template_context 05_macros.09_record.114
+-template_name uvm_record_time([NAME],[VALUE])
+-template_start
+`uvm_record_time([NAME],[VALUE])
+-template_end
+
+-template_context 05_macros.09_record.115
+-template_name uvm_record_real([NAME],[VALUE])
+-template_start
+`uvm_record_real([NAME],[VALUE])
+-template_end
+
+-template_context 05_macros.09_record.116
+-template_name uvm_record_field([NAME],[VALUE])
+-template_start
+`uvm_record_field([NAME],[VALUE])
+-template_end
+
+-template_context 05_macros.09_record.117
+-template_name uvm_record_enum([NAME],[VALUE],[TYPE])
+-template_start
+`uvm_record_enum([NAME],[VALUE],[TYPE])
+-template_end
+
+-template_context 05_macros.09_record.118
+-template_name uvm_record_qda_int([ARG], RADIX)
+-template_start
+`uvm_record_qda_int([ARG], RADIX)
+-template_end
+
+-template_context 05_macros.09_record.119
+-template_name uvm_record_qda_object([ARG])
+-template_start
+`uvm_record_qda_object([ARG])
+-template_end
+
+-template_context 05_macros.09_record.120
+-template_name uvm_record_qda_enum([ARG], [T])
+-template_start
+`uvm_record_qda_enum([ARG], [T])
+-template_end
+
+-template_context 05_macros.09_record.121
+-template_name uvm_record_qda_string([ARG])
+-template_start
+`uvm_record_qda_string([ARG])
+-template_end
+
+-template_context 05_macros.09_record.122
+-template_name uvm_record_qda_real([ARG])
+-template_start
+`uvm_record_qda_real([ARG])
+-template_end
+

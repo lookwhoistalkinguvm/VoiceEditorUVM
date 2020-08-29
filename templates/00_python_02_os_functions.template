@@ -1,0 +1,109 @@
+
+-template_context 00_python.02_library_modules.01_os_functions.110
+-template_name os.chdir([])
+-template_start
+os.chdir([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.111
+-template_name os.getcwd([])
+-template_start
+os.getcwd([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.112
+-template_name os.listdir([])
+-template_start
+os.listdir([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.113
+-template_name ([d],[d])=os.path.splitext([])
+-template_start
+([d],[d])=os.path.splitext([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.114
+-template_name [[d]]=os.path.basename([])
+-template_start
+[[d]]=os.path.basename([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.115
+-template_name os.path.normcase([])
+-template_start
+os.path.normcase([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.116
+-template_name os.path.normpath([])
+-template_start
+os.path.normpath([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.117
+-template_name os.path.realpath([])
+-template_start
+os.path.realpath([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.118
+-template_name os.path.dirname([])
+-template_start
+os.path.dirname([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.119
+-template_name os.path.expanduser([])
+-template_start
+os.path.expanduser([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.120
+-template_name os.path.exists([])
+-template_start
+os.path.exists([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.121
+-template_name os.path.isfile([])
+-template_start
+os.path.isfile([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.1210
+-template_name os.path.isdir([])
+-template_start
+os.path.isdir([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.122
+-template_name os.path.join([])
+-template_start
+os.path.join([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.123
+-template_name os.environ
+-template_start
+os.environ
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.124
+-template_name os.path.isabs([])
+-template_start
+os.path.isabs([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.125
+-template_name os.walk([])
+-template_start
+os.walk([])
+-template_end
+
+-template_context 00_python.02_library_modules.01_os_functions.126
+-template_name os.path.normpath([])
+-template_start
+os.path.normpath([])
+-template_end
+

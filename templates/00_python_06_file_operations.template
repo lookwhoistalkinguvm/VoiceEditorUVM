@@ -1,0 +1,83 @@
+-template_context 00_python.06_file_operations.110
+-template_name loop over files in directory
+-template_start
+os.chdir([directory path])
+for file in glob.glob(r'*.py'):
+-template_end
+
+-template_context 00_python.06_file_operations.1111
+-template_name perform shell command
+-template_start
+os.chdir([directory path])
+shellCommand=r'[command]'
+shellOutput=subprocess.check_output(shellCommand,shell=True)
+-template_end
+
+-template_context 00_python.06_file_operations.1112
+-template_name perform shell command on each file in directory
+-template_start
+os.chdir([directory path])
+for file in glob.glob(r'*'):
+ shellCommand=r'[command] %s'% [file]
+ shellOutput=subprocess.check_output(shellCommand,shell=True)
+-template_end
+
+-template_context 00_python.06_file_operations.120
+-template_name read file into list
+-template_start
+fileName=[]
+try:
+ fileHandle=open([fileName],["r"])
+except:
+ print ("Unable to open file: ",[fileName])
+ sys.exit([return code])
+else:
+ fileList=fileHandle.readlines()
+ fileHandle.close()
+-template_end
+
+-template_context 00_python.06_file_operations.121
+-template_name skip empty lines
+-template_start
+if ([s].strip()==""):
+ continue
+-template_end
+
+-template_context 00_python.06_file_operations.122
+-template_name open file for writing
+-template_start
+outputFileName=r'[]'
+try:
+ outputFileHandle=open([outputFileName],"w")
+except:
+ print ("Unable to open file for writing: ",[outputFileName])
+ sys.exit([return code])
+-template_end
+
+-template_context 00_python.06_file_operations.123
+-template_name [outputFileHandle].write([])
+-template_start
+[outputFileHandle].write([])
+-template_end
+
+-template_context 00_python.06_file_operations.124
+-template_name [outputFileHandle].close()
+-template_start
+[outputFileHandle].close()
+-template_end
+
+-template_context 00_python.06_file_operations.125
+-template_name try except
+-template_start
+try:
+
+except:
+ print("[d]")
+ sys.exit([return code])
+-template_end
+
+
+
+
+
+

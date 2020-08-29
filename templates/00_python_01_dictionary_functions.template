@@ -1,0 +1,91 @@
+
+-template_context 00_python.01_dictionary_functions.110
+-template_name [[]]={[v]:[v],}
+-template_start
+[[]]={[v]:[v],}
+-template_end
+
+-template_context 00_python.01_dictionary_functions.111
+-template_name del [][[e]]
+-template_start
+del [][[e]]
+-template_end
+
+-template_context 00_python.01_dictionary_functions.112
+-template_name [[]].get([])
+-template_start
+[[]].get([])
+-template_end
+
+-template_context 00_python.01_dictionary_functions.113
+-template_name [[]].update([e])
+-template_start
+[[]].update([e])
+-template_end
+
+-template_context 00_python.01_dictionary_functions.114
+-template_name [[]].pop([])
+-template_start
+[[]].pop([])
+-template_end
+
+-template_context 00_python.01_dictionary_functions.115
+-template_name [[]].keys()
+-template_start
+[[]].keys()
+-template_end
+
+-template_context 00_python.01_dictionary_functions.116
+-template_name [[]].items([])
+-template_start
+[[]].items([])
+-template_end
+
+-template_context 00_python.01_dictionary_functions.117
+-template_name [[]].values([])
+-template_start
+[[]].values([])
+-template_end
+
+-template_context 00_python.01_dictionary_functions.118
+-template_name [[]].clear()
+-template_start
+[[]].clear()
+-template_end
+
+-template_context 00_python.01_dictionary_functions.119
+-template_name [[]].copy()
+-template_start
+[[]].copy()
+-template_end
+
+-template_context 00_python.01_dictionary_functions.120
+-template_name [[]].fromkeys([s][,v])
+-template_start
+[[]].fromkeys([s][,v])
+-template_end
+
+-template_context 00_python.01_dictionary_functions.121
+-template_name [[]].popitem()
+-template_start
+[[]].popitem()
+-template_end
+
+-template_context 00_python.01_dictionary_functions.122
+-template_name [][[]]=[]
+-template_start
+[][[]]=[]
+-template_end
+
+-template_context 00_python.01_dictionary_functions.123
+-template_name [[]].setdefault([key][,default_value])
+-template_start
+[[]].setdefault([key][,default_value])
+-template_end
+
+-template_context 00_python.01_dictionary_functions.124
+-template_name dict([])
+-template_start
+dict([])
+-template_end
+

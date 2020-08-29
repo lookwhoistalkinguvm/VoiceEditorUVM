@@ -1,0 +1,378 @@
+-template_context 05_macros.14_undefine.110
+-template_name `undef UVM_BLOCKING_GET_IMP
+-template_start
+``undef UVM_BLOCKING_GET_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.111
+-template_name `undef UVM_BLOCKING_GET_IMP_SFX
+-template_start
+``undef UVM_BLOCKING_GET_IMP_SFX
+-template_end
+
+-template_context 05_macros.14_undefine.112
+-template_name `undef UVM_BLOCKING_GET_PEEK_IMP
+-template_start
+``undef UVM_BLOCKING_GET_PEEK_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.113
+-template_name `undef UVM_BLOCKING_PEEK_IMP
+-template_start
+``undef UVM_BLOCKING_PEEK_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.114
+-template_name `undef UVM_BLOCKING_PEEK_IMP_SFX
+-template_start
+``undef UVM_BLOCKING_PEEK_IMP_SFX
+-template_end
+
+-template_context 05_macros.14_undefine.115
+-template_name `undef UVM_BLOCKING_PUT_IMP
+-template_start
+``undef UVM_BLOCKING_PUT_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.116
+-template_name `undef UVM_BLOCKING_PUT_IMP_SFX
+-template_start
+``undef UVM_BLOCKING_PUT_IMP_SFX
+-template_end
+
+-template_context 05_macros.14_undefine.117
+-template_name `undef UVM_BLOCKING_TRANSPORT_IMP
+-template_start
+``undef UVM_BLOCKING_TRANSPORT_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.118
+-template_name `undef UVM_BLOCKING_TRANSPORT_IMP_SFX
+-template_start
+``undef UVM_BLOCKING_TRANSPORT_IMP_SFX
+-template_end
+
+-template_context 05_macros.14_undefine.119
+-template_name `undef DODEEPCOPY
+-template_start
+``undef DODEEPCOPY
+-template_end
+
+-template_context 05_macros.14_undefine.120
+-template_name `undef DOREFERENCECOPY
+-template_start
+``undef DOREFERENCECOPY
+-template_end
+
+-template_context 05_macros.14_undefine.121
+-template_name `undef DOSHALLOWCOPY
+-template_start
+``undef DOSHALLOWCOPY
+-template_end
+
+-template_context 05_macros.14_undefine.122
+-template_name `undef UVM_FUNCTION_ERROR
+-template_start
+``undef UVM_FUNCTION_ERROR
+-template_end
+
+-template_context 05_macros.14_undefine.123
+-template_name `undef UVM_GET_IMP
+-template_start
+``undef UVM_GET_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.124
+-template_name `undef UVM_GET_PEEK_IMP
+-template_start
+``undef UVM_GET_PEEK_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.125
+-template_name `undef M_RESIZE_QUEUE_COPY
+-template_start
+``undef M_RESIZE_QUEUE_COPY
+-template_end
+
+-template_context 05_macros.14_undefine.126
+-template_name `undef M_RESIZE_QUEUE_NOCOPY
+-template_start
+``undef M_RESIZE_QUEUE_NOCOPY
+-template_end
+
+-template_context 05_macros.14_undefine.127
+-template_name `undef M_RESIZE_QUEUE_OBJECT_COPY
+-template_start
+``undef M_RESIZE_QUEUE_OBJECT_COPY
+-template_end
+
+-template_context 05_macros.14_undefine.128
+-template_name `undef M_RESIZE_QUEUE_OBJECT_NOCOPY
+-template_start
+``undef M_RESIZE_QUEUE_OBJECT_NOCOPY
+-template_end
+
+-template_context 05_macros.14_undefine.129
+-template_name `undef m_uvm_record_any_object
+-template_start
+``undef m_uvm_record_any_object
+-template_end
+
+-template_context 05_macros.14_undefine.130
+-template_name `undef m_uvm_record_array_int
+-template_start
+``undef m_uvm_record_array_int
+-template_end
+
+-template_context 05_macros.14_undefine.131
+-template_name `undef m_uvm_record_array_object
+-template_start
+``undef m_uvm_record_array_object
+-template_end
+
+-template_context 05_macros.14_undefine.132
+-template_name `undef m_uvm_record_array_string
+-template_start
+``undef m_uvm_record_array_string
+-template_end
+
+-template_context 05_macros.14_undefine.133
+-template_name `undef m_uvm_record_int
+-template_start
+``undef m_uvm_record_int
+-template_end
+
+-template_context 05_macros.14_undefine.134
+-template_name `undef m_uvm_record_object
+-template_start
+``undef m_uvm_record_object
+-template_end
+
+-template_context 05_macros.14_undefine.135
+-template_name `undef m_uvm_record_qda_enum
+-template_start
+``undef m_uvm_record_qda_enum
+-template_end
+
+-template_context 05_macros.14_undefine.136
+-template_name `undef m_uvm_record_string
+-template_start
+``undef m_uvm_record_string
+-template_end
+
+-template_context 05_macros.14_undefine.137
+-template_name `undef UVM_NONBLOCKING_GET_IMP
+-template_start
+``undef UVM_NONBLOCKING_GET_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.138
+-template_name `undef UVM_NONBLOCKING_GET_IMP_SFX
+-template_start
+``undef UVM_NONBLOCKING_GET_IMP_SFX
+-template_end
+
+-template_context 05_macros.14_undefine.139
+-template_name `undef UVM_NONBLOCKING_GET_PEEK_IMP
+-template_start
+``undef UVM_NONBLOCKING_GET_PEEK_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.140
+-template_name `undef UVM_NONBLOCKING_PEEK_IMP
+-template_start
+``undef UVM_NONBLOCKING_PEEK_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.141
+-template_name `undef UVM_NONBLOCKING_PEEK_IMP_SFX
+-template_start
+``undef UVM_NONBLOCKING_PEEK_IMP_SFX
+-template_end
+
+-template_context 05_macros.14_undefine.142
+-template_name `undef UVM_NONBLOCKING_PUT_IMP
+-template_start
+``undef UVM_NONBLOCKING_PUT_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.143
+-template_name `undef UVM_NONBLOCKING_PUT_IMP_SFX
+-template_start
+``undef UVM_NONBLOCKING_PUT_IMP_SFX
+-template_end
+
+-template_context 05_macros.14_undefine.144
+-template_name `undef UVM_NONBLOCKING_TRANSPORT_IMP
+-template_start
+``undef UVM_NONBLOCKING_TRANSPORT_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.145
+-template_name `undef UVM_NONBLOCKING_TRANSPORT_IMP_SFX
+-template_start
+``undef UVM_NONBLOCKING_TRANSPORT_IMP_SFX
+-template_end
+
+-template_context 05_macros.14_undefine.146
+-template_name `undef UVM_PEEK_IMP
+-template_start
+``undef UVM_PEEK_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.147
+-template_name `undef print_enum_field
+-template_start
+``undef print_enum_field
+-template_end
+
+-template_context 05_macros.14_undefine.148
+-template_name `undef print_integral_field
+-template_start
+``undef print_integral_field
+-template_end
+
+-template_context 05_macros.14_undefine.149
+-template_name `undef _protected
+-template_start
+``undef _protected
+-template_end
+
+-template_context 05_macros.14_undefine.150
+-template_name `undef UVM_PUT_IMP
+-template_start
+``undef UVM_PUT_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.151
+-template_name `undef UVM_SEQ_ITEM_FUNCTION_ERROR
+-template_start
+``undef UVM_SEQ_ITEM_FUNCTION_ERROR
+-template_end
+
+-template_context 05_macros.14_undefine.152
+-template_name `undef UVM_SEQ_ITEM_GET_MASK
+-template_start
+``undef UVM_SEQ_ITEM_GET_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.153
+-template_name `undef UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK
+-template_start
+``undef UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.154
+-template_name `undef UVM_SEQ_ITEM_HAS_DO_AVAILABLE_MASK
+-template_start
+``undef UVM_SEQ_ITEM_HAS_DO_AVAILABLE_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.155
+-template_name `undef UVM_SEQ_ITEM_ITEM_DONE_MASK
+-template_start
+``undef UVM_SEQ_ITEM_ITEM_DONE_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.156
+-template_name `undef UVM_SEQ_ITEM_PEEK_MASK
+-template_start
+``undef UVM_SEQ_ITEM_PEEK_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.157
+-template_name `undef UVM_SEQ_ITEM_PULL_IMP
+-template_start
+``undef UVM_SEQ_ITEM_PULL_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.158
+-template_name `undef UVM_SEQ_ITEM_PULL_MASK
+-template_start
+``undef UVM_SEQ_ITEM_PULL_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.159
+-template_name `undef UVM_SEQ_ITEM_PUSH_MASK
+-template_start
+``undef UVM_SEQ_ITEM_PUSH_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.160
+-template_name `undef UVM_SEQ_ITEM_PUT_MASK
+-template_start
+``undef UVM_SEQ_ITEM_PUT_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.161
+-template_name `undef UVM_SEQ_ITEM_PUT_RESPONSE_MASK
+-template_start
+``undef UVM_SEQ_ITEM_PUT_RESPONSE_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.162
+-template_name `undef UVM_SEQ_ITEM_TASK_ERROR
+-template_start
+``undef UVM_SEQ_ITEM_TASK_ERROR
+-template_end
+
+-template_context 05_macros.14_undefine.163
+-template_name `undef UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK
+-template_start
+``undef UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.164
+-template_name `undef UVM_SEQ_ITEM_UNI_PULL_MASK
+-template_start
+``undef UVM_SEQ_ITEM_UNI_PULL_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.165
+-template_name `undef UVM_SEQ_ITEM_WAIT_FOR_SEQUENCES_MASK
+-template_start
+``undef UVM_SEQ_ITEM_WAIT_FOR_SEQUENCES_MASK
+-template_end
+
+-template_context 05_macros.14_undefine.166
+-template_name `undef UVM_TASK_ERROR
+-template_start
+``undef UVM_TASK_ERROR
+-template_end
+
+-template_context 05_macros.14_undefine.167
+-template_name `undef UVM_TRANSPORT_IMP
+-template_start
+``undef UVM_TRANSPORT_IMP
+-template_end
+
+-template_context 05_macros.14_undefine.168
+-template_name `undef _UVM_CB_MSG_NO_CBS
+-template_start
+``undef _UVM_CB_MSG_NO_CBS
+-template_end
+
+-template_context 05_macros.14_undefine.169
+-template_name `undef _UVM_CB_MSG_NOT_REG
+-template_start
+``undef _UVM_CB_MSG_NOT_REG
+-template_end
+
+-template_context 05_macros.14_undefine.170
+-template_name `undef _UVM_CB_MSG_NULL_CB
+-template_start
+``undef _UVM_CB_MSG_NULL_CB
+-template_end
+
+-template_context 05_macros.14_undefine.171
+-template_name `undef _UVM_CB_MSG_NULL_OBJ
+-template_start
+``undef _UVM_CB_MSG_NULL_OBJ
+-template_end
+
+-template_context 05_macros.14_undefine.172
+-template_name `undef UVM_XCELIUM
+-template_start
+``undef UVM_XCELIUM
+-template_end
+

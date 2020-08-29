@@ -1,0 +1,282 @@
+-template_context 00_python.02_library_modules.02_re_functions.118
+-template_name [[]]=re.findall([],[])
+-template_start
+[[]]=re.findall([],[])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.119
+-template_name [[m]]=re.finditer([d],[d])
+-template_start
+[[]]=re.finditer([],[])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.120
+-template_name [[]]=re.match([],[d])
+-template_start
+[[]]=re.match([],[])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.121
+-template_name [[]]=re.search([],[])
+-template_start
+[[]]=re.search([],[])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.122
+-template_name [[res]]=re.sub([pattern],[repl],[string],[count],[flags])
+-template_start
+[[]]=re.sub([pattern],[repl],[string],[count],[flags])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.1220
+-template_name multiline finditer
+-template_start
+[iterator]=re.finditer(
+ r'''
+
+ ''',
+ [],
+ re.VERBOSE
+)
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.1221
+-template_name multiline match
+-template_start
+[[match object]]=re.match(
+ r'''
+
+ ''',
+ [[]],
+ re.VERBOSE
+)
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.1222
+-template_name multiline findall
+-template_start
+[[match list]]=re.findall(
+ r'''
+
+ ''',
+ [[]],
+ re.VERBOSE
+)
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.1223
+-template_name multiline search
+-template_start
+[[match object]]=re.search(
+ r'''
+
+ ''',
+ [[]],
+ re.VERBOSE
+)
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.1224
+-template_name multiline sub
+-template_start
+[[result string]]=re.sub(
+ r'''
+ ([matching regular expression])
+ [] ([])
+ [] ([]),
+ [original string],
+ [maximum count],
+ re.VERBOSE
+)
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.12240
+-template_name if([]): [d].group([d])
+-template_start
+if([]):
+ [[d]]=[d].group([d])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.12241
+-template_name [d].group([d])
+-template_start
+[d].group([d])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.12242
+-template_name [d].start([d])
+-template_start
+[d].start([d])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.12243
+-template_name [d].end([d])
+-template_start
+[d].end([d])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.12244
+-template_name [d].span([d])
+-template_start
+[d].span([d])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.12245
+-template_name [[]]
+-template_start
+[[]]
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.12246
+-template_name ([])
+-template_start
+([])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.1225
+-template_name $
+-template_start
+$
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.1226
+-template_name ^
+-template_start
+^
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.123
+-template_name A-Z
+-template_start
+A-Z
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.124
+-template_name a-z
+-template_start
+a-z
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.125
+-template_name A-Za-z
+-template_start
+A-Za-z
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.126
+-template_name ^A-Za-z
+-template_start
+^A-Za-z
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.127
+-template_name 0-9
+-template_start
+0-9
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.128
+-template_name ?P<[d]> #named group definition
+-template_start
+?P<[d]>
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.129
+-template_name ?P=[d] #back reference to named group
+-template_start
+?P=[d]
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.130
+-template_name ?=[[d]] #positive lookahead
+-template_start
+?=[[d]]
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.131
+-template_name ?![[d]] #negative lookahead
+-template_start
+?![[d]]
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.132
+-template_name \d
+-template_start
+\d
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.133
+-template_name \D
+-template_start
+\D
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.134
+-template_name \w
+-template_start
+\w
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.135
+-template_name \W
+-template_start
+\W
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.136
+-template_name \s
+-template_start
+\s
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.137
+-template_name \S
+-template_start
+\S
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.138
+-template_name \n
+-template_start
+\n
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.139
+-template_name \b
+-template_start
+\b
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.140
+-template_name \B
+-template_start
+\B
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.141
+-template_name .*
+-template_start
+.*
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.142
+-template_name if match then
+-template_start
+if([[m]]):
+ groupName=m.group([[groupNumber]])
+-template_end
+
+-template_context 00_python.02_library_modules.02_re_functions.143
+-template_name re.IGNORECASE
+-template_start
+re.IGNORECASE
+-template_end
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+run\help.txt
+dragon\custom_words.txt
+src\VoiceEditorSettings.py
+.gitignore
+run\variableBackupList.txt
+templates\regular_expressions.template
+run\predefinedLineFilters.txt
+scratch\scratch1.py
+scratch\scratch2.py
+scripts\search_files.py
+

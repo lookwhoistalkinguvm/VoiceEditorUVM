@@ -1,0 +1,12 @@
+-template_context 05_macros.03_copy.110
+-template_name uvm_copy_object([LVALUE], [RVALUE], [POLICY=UVM_DEFAULT_POLICY], [COPIER=copier])
+-template_start
+`uvm_copy_object([LVALUE], [RVALUE], [POLICY=UVM_DEFAULT_POLICY], [COPIER=copier])
+-template_end
+
+-template_context 05_macros.03_copy.111
+-template_name uvm_copy_aa_object([LVALUE], [RVALUE], [POLICY=UVM_DEFAULT_POLICY], [COPIER=copier])
+-template_start
+`uvm_copy_aa_object([LVALUE], [RVALUE], [POLICY=UVM_DEFAULT_POLICY], [COPIER=copier])
+-template_end
+

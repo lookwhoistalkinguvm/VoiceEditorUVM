@@ -1,0 +1,18 @@
+-template_context 05_macros.04_global.110
+-template_name  `define UVM_MAX_STREAMBITS 4096
+-template_start
+` `define UVM_MAX_STREAMBITS 4096
+-template_end
+
+-template_context 05_macros.04_global.111
+-template_name  `define UVM_PACKER_MAX_BYTES `UVM_MAX_STREAMBITS
+-template_start
+` `define UVM_PACKER_MAX_BYTES `UVM_MAX_STREAMBITS
+-template_end
+
+-template_context 05_macros.04_global.112
+-template_name `define UVM_DEFAULT_TIMEOUT 9200s
+-template_start
+``define UVM_DEFAULT_TIMEOUT 9200s
+-template_end
+

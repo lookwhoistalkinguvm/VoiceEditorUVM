@@ -1,0 +1,10 @@
+
+
+
+-template_context 00_python.09_code_snippets.template
+
+-template_name Skip file/directory ending with
+-template_start
+if ( not [fullFileName].endswith(([file type to ignore ]))):
+ [continue]
+-template_end

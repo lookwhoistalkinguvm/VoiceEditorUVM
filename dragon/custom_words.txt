@@ -1,0 +1,463 @@
+@Version=Plato-UTF8
+
+#LIBRARY MODULES
+glob\\global module
+string\\string module
+os\\operating system module
+sys\\system module
+from string import Template
+subprocess\\subprocess module
+
+#STANDARD SYNTAX TEMPLATES
+[[d]].close()\\file dot close template
+[[d]]=open([d],"[r]")\\open file template
+[[d]].write([d])\\file dot write template
+[[d]]=[d]([d])\\function call template
+[[f]].seek([v])\\file dot seek template
+class [d] ([object]):\\class definition template
+def __init__(self [,][d]):\\constructor function definition template
+def __call__(self [,][d]):\\call function definition template
+def __iter__(self):\\iterator function definition template
+def __next__(self):\\next function definition template
+[[d]].__init__(self,[[d]])\\run super initialisation template
+[[d]].[d]([])\\run super function template
+def [f] ([self]):\\function definition template
+for [i] in [d] :\\for loop template
+if([]):\\if statement template
+elif([c]):\\else if template
+else:\\else template
+glob.glob([])\\global dot global template
+main()\\main function call template
+None\\python null
+if __name__ == "__main__":\\if name is equal to main template
+while([]):\\while loop template
+while(True):\\while true loop
+while(False):\\while false loop
+print("[d]",[d])\\print comma template
+print("[d]"%([d]))\\print percent template
+print("[d]")\\print simple template
+print([variable])\\print empty parens
+
+
+#OS FUNCTIONS
+os.chdir([])\\operating system dot change directory
+os.getcwd([])\\operating system dot get current working directory
+os.listdir([])\\operating system dot list directory
+([d],[d])=os.path.splitext([])\\operating system dot path dot split extension
+[[d]]=os.path.basename([])\\operating system dot path dot base name
+os.path.normcase([])\\operating system dot path dot normal case
+os.path.normpath([])\\operating system dot path dot normal path
+os.path.realpath([])\\operating system dot path dot real path
+os.path.dirname([])\\operating system dot path dot directory name
+os.path.expanduser([])\\operating system dot path dot expand user
+os.path.exists([])\\operating system dot path dot exists
+os.path.isfile([])\\operating system dot path dot is file
+os.path.join([])\\operating system dot path dot join
+
+
+#SYSTEM MODULE
+sys.exit([return code])\\system dot exit
+
+#comparison operators
+=\\assignment equals
+==\\comparison equals
+!=\\not equal operator
+<\\less than operator
+>\\greater than operator
+>=\\greater than or equal to operator
+<=\\less than or equal to operator
++=\\self increment operator
+-=\\self decrement operator
++=1\\increment by one
+
+#CODE SNIPPETS
+print("1")\\print one
+print("2")\\print two
+print("3")\\print three
+print("4")\\print four
+print("5")\\print five
+print("6")\\print six
+print("7")\\print seven
+print("8")\\print eight
+print("9")\\print nine
+.py\\dot Python
+{[]}\\empty braces
+([])\\empty parens
+[[]]\\empty squares
+[]\\extra empty squares
+()\\extra empty parens
+{}\\extra empty braces
+[];\\extra empty squares semicolon
+();\\extra empty parens semicolon
+{};\\extra empty braces semicolon
+{[]};\\empty braces semicolon
+([]);\\empty parens semicolon
+[[]];\\empty squares semicolon
+r'[]'\\raw string
+ipy32\\iron python executable
+self.\\self dot
+==True\\is equal to true
+==False\\is not equal to true
+"""\\multiline string start
+"""\\multiline string end
+cmd\\short form for command
+except IOError as e:\\except input output error as
+except SameFileError as e:\\except same file error as
+except [[d]] as e:\\except some error as
+del\\element delete operator
+rstrip([d])\\right strip template
+lstrip([d])\\left strip template
+self.editBox.AppendText([text])\\edit box append text
+self.cmdBox.AppendText([text])\\command box append text
+self.viewBox.AppendText([text])\\view box append text
+self.statusBox.AppendText([text])\\status box append text
+self.scaleBox.AppendText([text])\\scale box append text
+[d]=self.editBox.SelectionStart\\edit box selection start
+a-zA-Z\\match all letters in the alphabet
+
+#RE FUNCTIONS
+$\\match end of line
+^\\match start of line
+[r]=[s].replace([o],[n],[c])\\string dot replace
+[d].group([d])\\match object dot group
+[d].start([d])\\match object dot start
+[d].end([d])\\match object dot end
+[d].span([d])\\match object dot span
+re\\regular expression module
+[m]=re.findall([d],[d])\\regular expression dot find all
+[m]=re.finditer([d],[d])\\regular expression dot find iterator
+[m]=re.match([d],[d])\\regular expression dot match
+[m]=re.search([d],[d])\\regular expression dot search
+[m]=re.sub([d],[d],[d])\\regular expression dot sub
+A-Z\\regular expression uppercase letter range
+a-z\\regular expression lowercase letter range
+A-Za-z\\regular expression letter range
+^A-Za-z\\regular expression not letter range
+0-9\\regular expression digit range
+?P<[d]>\\regular expression named capture group
+?P=[d]\\regular expression named capture group back reference
+?=[[d]]\\regular expression positive look ahead
+?![[d]]\\regular expression negative look ahead
+
+
+#VOICE EDITOR FUNCTIONS
+remove line
+remove lines
+revert file
+save file
+list directory
+remove spaces off
+remove spaces on
+yank lines
+duplicate lines
+insert lines
+comment in lines
+comment out lines
+indent lines right
+indent lines left
+substitute :[line start]:[line end]:[old string]:[new string]:\\substitute template
+auto menu start sequence
+
+
+//#SHUTIL FUNCTIONS
+shutil\\shell utility module
+shutil.copyfile([])\\Shell utility dot copy file
+
+#list functions
+[[l]].append([])\\list dot append
+[[l]].index([])\\list dot index
+[[l]].extend([])\\list dot extend
+[[l]].remove([])\\list dot remove
+[[l]].count([])\\list dot Count
+[[l]].pop([])\\list dot pop
+[[l]].reverse([])\\list dot reverse
+[[l]].sort([])\\list dot sort
+[[l]].copy([])\\list dot copy
+[[l]].clear([])\\list dot clear
+[[l]].insert([index],[element])\\list dot insert
+
+#tuple methods
+[[t]].index([])\\tuple dot index
+[[t]].count([])\\tuple dot count
+[[t]][[l]:[u]]\\tuple slice
+[enumerate]([t])\\tuple enumerate
+
+#dictionary functions
+[[d]]={[v]:[v],}\\dictionary initialisation
+del [d][[e]]\\dictionary delete element
+[[d]].get([])\\dictionary dot get
+[[d]].update([e])\\dictionary dot update
+[[d]].pop([])\\dictionary dot pop
+[[d]].keys()\\dictionary dot keys
+[[d]].items([])\\dictionary dot items
+[[d]].values([])\\dictionary dot values
+[[d]].clear()\\dot
+[[d]].copy()\\dictionary dot copy
+[[d]].fromkeys([s][,v])\\dictionary dot from keys
+[[d]].popitem()\\dictionary dot pop item
+[d][[d]]=[d]\\dictionary assignment template
+[[d]].setdefault([key][,default_value])\\dictionary dot set default
+
+#Python functions on to tuples lists and dictionaries
+any([iterable])\\any function template
+all([iterable])\\all function template
+ascii([object])\\ASCII function template
+bool([value])\\Boolean function template
+dict([iterable])\\dictionary function template
+len([s])\\length function template
+filter([function],[iterable])\\filter function template
+iter([object][,sentinel])\\iterator function template
+
+#string functions
+[[str]].split([sep][,maxsplit])\\string dot split
+[[str]].isdigit()\\string dot is digit
+[[str]].replace([[d]])\\string dot is replace
+abs([])\\absolute function
+[[s]]=Template([])\\string constructor
+[[s]].substitute([])\\string dot substitute
+[[s]].endswith([d])\\string dot ends with
+[[s]].startswith([d])\\string dot starts with
+'[string ]'%([format])\\string percent format
+"[string ]"%([format])\\string percent format double
+%0[2][d]\\percent zero decimal
+
+
+#Python Built In Functions
+isinstance([object],[class info])\\is instance template
+int([d])\\convert to integer function
+max([v])\\max function template
+min([v])\\min function template
+"[[d]]".join([list])\\join function template
+
+#Voice Editor
+self.statusBox.Text="[]"\\status box text
+self.cmdBox.Text="[]"\\command box text
+self.viewBox.Text="[]"\\view box text
+self.editBox.Text="[]"\\editboxtext
+VOICEEDITORROOT\\voice editor root
+
+#Subprocess module
+[[d]]=subprocess.check_call([args][,shell=True])\\subprocess dot check call
+[[d]]=subprocess.check_output([args][,shell=True])\\subprocess dot check output
+except CalledProcessError as e:\\except called process error as
+some new word
+
+#Keyword module
+keyword.iskeyword([item])\\keyword dot is keyword
+
+#Project specific abbreviations
+%PROJECTROOT%\\project root
+uvm_tb_gen\\UVM test bench gen
+iic_b2b\\iic back-to-back
+If\\short form for interface
+Inst\\short form for instance
+dut\\short form for device under test
+ap\\short form for analysis report
+sqr\\short form for sequencer
+vsqr\\short form for virtual sequencer
+vseq\\short form for virtual sequence
+$display([]);\\ dollar display
+$display("%t: [message]", $time);\\dollar display with time
+null\\null handle
+wb\\short form for wish bone
+clk\\short form for clock
+rst\\short form for reset
+SystemVerilog\\system verilog
+SystemVerilog/UVM\\SystemVerilog/UVM
+reg\\short form for register
+gen\\short form for generator
+tb\\short form for TestBench
+cg\\short form for cover group
+void'([])\\void cast
+m_vif\\member virtual interface
+@(posedge m_vif.[clk]);\\at rising edge interface clock
+assert([].randomize()) else `uvm_fatal([], "randomisation failed")\\assert randomise
+m_name\\member name
+c_\\constraint prefix
+ui\\short form for unsigned integer
+int\\short form for integer
+defs\\short form for defines
+global_defs_pkg\\global defines package
+ns\\short form for nano seconds
+us\\short form for micro-seconds
+s\\short form for second
+rm\\short form for register model
+m_rm\\member register model
+`uvm_object_utils([])\\tick UVM object you utils
+`uvm_component_utils([])\\tick UVM component utils
+`uvm_object_utils_begin([])\\tick UVM object you utils begin
+`uvm_component_utils_begin([])\\tick UVM component utils begin
+`uvm_object_utils_end\\tick UVM object you utils end
+`uvm_component_utils_end([])\\tick UVM component utils end
+endfunction\\end function
+endclass\\end class
+endtask\\end task
+UVM_HIGH\\UVM high
+UVM_MEDIUM\\UVM medium
+UVM_LOW\\UVM low
+UVM_ALL_ON\\UVM all on
+`uvm_info("[message ID]", [message], [verbosity])\\UVM info
+`uvm_warning([message ID],[message])\\UVM warning
+`uvm_error([message ID],[message])\\UVM error
+`uvm_fatal([message ID],[message])\\UVM fatal
+uvm_reg\\UVM register
+uvm_reg_field\\UVM register field
+uvm_reg_block\\UVM register block
+PRERlo\\pre-scale low register
+PRERhi\\pre-scale high register
+CTR\\control register
+TXR\\transmit register
+RXR\\receive register
+CR\\command register
+SR\\status register
+$sformatf("[string]", [formats])\\string format
+msb\\short form for most significant bit
+lsb\\short form for least significant bit
+import uvm_pkg::*;\\import UVM package
+uvm_pkg\\UVM package
+`include "uvm_macros.svh"\\tick include UVM macros
+endpackage\\end package
+extern function new(string name="[name]");\\object new function declaration
+function [class_name]::new(string name="[class_name]");\\object new function body
+extern function new(string name="[name]", uvm_component parent= null);\\component new function declaration
+function [class_name]::new(string name="[class_name]", uvm_component parent= null);\\component new function body
+function void build_phase( uvm_phase phase);\\build phase
+function void run_phase( uvm_phase phase);\\run phase
+function void connect_phase( uvm_phase phase);\\connect phase
+super.new(name,parent);\\component super dot new
+super.new(name);\\object super dot new
+=0;\\assign zero
+=1;\\assign one
+=0\\assign zero solo
+=1\\assign one solo
+uvm_reg_bus_op\\UVM register bus operation
+rw\\bus read/write operation
+uvm_sequence_item\\UVM sequence item
+[condition] ? [If]: [else];\\ternary conditional operator
+UVM_READ\\UVM read
+UVM_WRITE\\UVM write
+UVM_IS_OK\\UVM is okay
+UVM_ACTIVE\\UVM active
+UVM_NO_CHECK\\UVM no check
+if(!uvm_config_db #([type])::get([context], "[instance]", "[name]", [value])) begin\\if not get config
+uvm_config_db #( [type])::set( [context], "[instance name]" , "[field name]" , [value]);\\UVM config DB set
+${[variable]}\\dollar braces
+uvm_active_passive_enum\\UVM active passive enumeration
+enum\\short form for enumeration
+uvm_object\\UVM object
+uvm_component\\UVM component
+uvm_object#([parameters]) [object instance];\\parameterised UVM object
+uvm_component#([parameters]) [component instance];\\parameterised UVM component
+->\\implication operator
+typedef enum {[list]} [name];\\type def enum name
+([condition]) -> [variable] inside { [[range]] };\\constraint condition implies value inside
+([condition]) -> [variable] == [value];\\constraint condition implies value is equal to
+^\\exclusive or
+uvm_status_e\\UVM status
+.write(status,'h[value]);\\write register
+.read(status,[variable]);\\read register
+.mirror(status)\\mirror register
+.update([status])\\update register
+'h[val]\\tick hex
+'b\\tick bee
+extern virtual function [void] [function name]([args]);\\function declaration
+extern virtual task [task name]([args]);\\task declaration
+function [void] [class]::[function name]([args]);\\function body declaration
+task [class]::[task name]([args]);\\task body declaration
+extern\\extern extern
+.rand_mode([0]);\\Rand mode
+.rand_mode(0);\\Rand mode zero
+.rand_mode(1);\\Rand mode one
+.constraint_mode(0);\\constraint mode zero
+.constraint_mode(1);\\constraint mode one
+
+
+
+
+
+#UVM
+uvm_sequence\\UVM sequence
+logic [variable_name];\\logic variable declaration
+logic [vector] [variable_name];\\packed logic variable declaration
+logic [variable_name][vector];\\unpacked logic variable declaration
+bit [variable_name];\\bit variable declaration
+bit [vector] [variable_name];\\packed bit variable declaration
+bit [variable_name][vector];\\unpacked bit variable declaration
+wire [variable_name];\\wire variable declaration
+wire [vector] [variable_name];\\packed wire variable declaration
+wire [variable_name][vector];\\unpacked wire variable declaration
+null\\null null
+[type] [queue name][$];\\queue declaration
+rand [signal];\\random signal declaration
+foreach([array][loop variable])\\for each loop
+m_\\member variable prefix
+vif\\short form for virtual interface
+::\\scope resolution
+//\\UVM comment line
+iic\\eye squared see
+wire\\Verilog wire type
+logic\\Verilog logic type
+reg\\Verilog register type
+uvm\\lowercase UVM
+UVM\\uppercase UVM
+pkg\\short form for package
+seq\\short form for sequence
+env\\short form for environment
+bool\\short form for Boolean
+::type_id::create([]);\\ type ID create
+#[]ns;\\delay in nanoseconds
+#[]us;\\delay in microseconds
+RO\\read only access
+WO\\right only access
+RW\\read write access
+0x\\hex literal
+rand\\short form for random
+$psprintf("[string]",[format])\\dollar pretty string print
+
+#System Verilog
+<=\\non blocking assignment
+.sv\\dot system Verilog body file
+.svh\\dot system Verilog header file
+assign\\verilog assign
+'b0\\tick bee zero
+'b1\\tick bee one
+forever\\for ever loop
+wait([]);\\ wait statement
+$time\\dollar time
+%s\\percent string
+%d\\percent decimal
+::\\double colon
+`ifnef\\tick if not def
+`define\\tick define
+`endif\\tick end if
+if ([condition]) begin\\if begin
+end else if ([condition]) begin\\end else if begin
+$cast([destination],[source]);\\dollar cast
+if ($cast([destination],[source])) begin\\if cast
+if (!$cast([destination],[source])) begin\\if not cast
+end\\end end
+bit\\bit bit
+write\\write write
+class [class_name] extends [base_class_name];\\class extends
+
+
+
+#FILE SYSTEM OPERATIONS
+..\\Double dot
+
+#Testbench Specific
+
+wb_seq_item\\wish bone sequence item
+wb_seq_item item;\\wish bone sequence item declaration
+item=wb_seq_item::type_id::create("item");\\create wish bone sequence item
+
+clock_seq_item\\clock sequence item
+clock_seq_item item;\\clock sequence item declaration
+item=clock_seq_item::type_id::create("item");\\create clock sequence item
+
+reset_seq_item\\reset sequence item
+reset_seq_item item;\\reset sequence item declaration
+item=reset_seq_item::type_id::create("item");\\create reset sequence item
+
+symbol_gen\\symbol gen
+
