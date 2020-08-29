@@ -1,8 +1,0 @@
-`define uvm_create(SEQ_OR_ITEM, SEQR=get_sequencer())
-`define uvm_do(SEQ_OR_ITEM, SEQR=get_sequencer(), PRIORITY=-1, CONSTRAINTS={})
-`define uvm_send(SEQ_OR_ITEM, PRIORITY=-1)
-`define uvm_rand_send(SEQ_OR_ITEM, PRIORITY=-1, CONSTRAINTS={})
-`define uvm_add_to_seq_lib(TYPE,LIBTYPE)
-`define uvm_sequence_library_utils(TYPE)
-`define uvm_declare_p_sequencer(SEQUENCER)
-

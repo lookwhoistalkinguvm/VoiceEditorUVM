@@ -1,3 +1,0 @@
-`define uvm_copy_object(LVALUE, RVALUE, POLICY=UVM_DEFAULT_POLICY, COPIER=copier)
-`define uvm_copy_aa_object(LVALUE, RVALUE, POLICY=UVM_DEFAULT_POLICY, COPIER=copier)
-
