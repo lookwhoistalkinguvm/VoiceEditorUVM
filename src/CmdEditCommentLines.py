@@ -78,7 +78,7 @@ class CmdEditCommentLines(object):
    lineToEdit=self.fileToEditList[lineIndex]
    matchCommentLine=re.match(r'(\s*%s)'%self.commentCharacter,lineToEdit)
    if(matchCommentLine):
-    lineToEdit=lineToEdit.replace(r'#', "",1)
+    lineToEdit=lineToEdit.replace(r'%s'%self.commentCharacter, "",1)
    self.fileToEditList[lineIndex]=lineToEdit
 
 
