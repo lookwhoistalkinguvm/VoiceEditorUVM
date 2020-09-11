@@ -7,26 +7,32 @@ VoiceEditor for UVM
 0) Demo video at : 
 https://youtu.be/yHlBrfDe0wI 
 
-1) Install IronPython
-https://ironpython.net/download/
+1. Install IronPython https://ironpython.net/download/
 
-2) Download latest VoiceEditorUVM release and unpack.
+2. Download latest VoiceEditor release and unpack.
 
-Define user env variable that points to installation directory eg :
+3. Define user env variable that points to installation directory eg :
 
-VOICEEDITORROOT = C:\%HOMEPATH%\Projects\VoiceEditorUVM
+VOICEEDITORROOT = C:%HOMEPATH%\Projects\VoiceEditorUVM
 
-3) Set/add the following environment variables :
-IRONPYTHONPATH += %VOICEEDITORROOT%\src
-IRONPYTHONPATH += %VOICEEDITORROOT%\src_uvm
+4. If you don't already haveit, then create a user env variable called IRONPYTHONPATH 
+   and set/add the following directories:
+   
+IRONPYTHONPATH += %VOICEEDITORROOT%\src;%VOICEEDITORROOT%\src_uvm
 
-4) cd %VOICEEDITORROOT%\run
-   Run create_snapshot BAT script : run_create_snapshot.bat
+5. Create the snapshot of the source files. The application is run by
+   invoking the snapshot. This way the editor's source can be modified
+   using the editor itself.
 
-5) In the same directory as 4), invoke the editor : run.bat
+> cd %VOICEEDITORROOT%\run 
+> run_create_snapshot.bat
+
+6. In the same directory as 5), invoke the editor : 
+
+> run.bat
 
 
-## USAGE ALL MODES
+## EDITOR GUI ELEMENTS AND USAGE
 
 
 -- Command Box
@@ -71,22 +77,10 @@ The template button gives access to the library of templates defined in the %VOI
 The templates\09_tb.template template file is earmarked for containing a particular test environments IntelliSense information. The templates\09_tb.template file that comes as part of this release is specific to the www.github.com/lookwhoistalkinguvm/symbol_gen_demo project. The contents of this file needs to be generated dynamically using a script for each specific project. Such a script is not part of the release.
 
 
-## USAGE MANUAL MODE
-
-VoiceEditor was conceived as a voice controllable editor. To place the cursor into the command, edit or view boxe click on the corresponding button named command, edit or view. Otherwise the application won't know where the cursor has been placed. This is not an issue when using it in voice control mode because navigation from box to box happens by saying 'click box_name'.
-
 
 ## TIP
 
 If the editor appears to be stuck for any reason first try clicking the list button and if that doesn't work the filter button.
-
-## Useful Commands (command box)
-
-comment out lines start_line:end_line
-comment in lines start_line:end_line
-
-Use filter functions to grep for lines matching a particular pattern (such as debug print statements) and then issue the following command:
-remove lines
 
 
 
