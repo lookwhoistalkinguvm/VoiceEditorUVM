@@ -1,0 +1,7 @@
+#For templates that have helpstrings defined as part of the template, the helpstring can be viewed
+#by opening this file and clicking on the button associtated with the template in the fast button
+#area. Normally this would insert the template, but when inserting into this file the helpstring is
+#inserted instead.
+#
+#Only the templates defined in templates\00_python_04_built_in_functions.template currently have
+#helpstrings defined.
