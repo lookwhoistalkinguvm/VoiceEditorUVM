@@ -99,8 +99,7 @@ class CmdEdit(object) :
   if(command=="list directory"):
    self.listDirectory.processThisCommand(command)
    self.nextCommand=self.listDirectory
-   self.save_file()
-   #self.close_file()
+   self.close_file()
    self.fileToEdit=None
    self.set_previous_file()
    CmdEdit.currentEditLineByFile[self.fullFileName]=self.currentEditLine
